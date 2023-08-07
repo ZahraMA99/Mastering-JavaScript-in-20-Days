@@ -19,9 +19,11 @@
      7. `document.querySelectorAll("h1")`: Same of the above but using css selector.
      8. `document.getElementsByClassName("player")`: It returns element with the same class name.
      9. `document.querySelectorAll(".player")`: Same of the above but using css selector.
-     10. `document.getElementsByClassName("player").length`: It Finds the nubmer of elements 
+     10. `document.getElementsByClassName("player").length`: It Finds the nubmer of elements with specific class name.
      11. `document.querySelectorAll(".player").length`: Same of the above but using css selector.
-     12. `document.getElementById("p1-name")`: To get the text element inside the selected element or container.
+     12. `document.getElementById("p1-name")`: To get the text of element with this of id. 
  
-  - 
- 
+  - Changing a web page: we can change the content of the elements of our page. for example:
+      1. `document.getElementById("player").textContent = ossy"`: It will set the content of the element to the new value "ossy".
+      2. `document.getElementById("player").append(" & sofia")"`: Player content will be ossy & sofia. 
+      3. `document.title = "my page"`: A new title for the page. 
