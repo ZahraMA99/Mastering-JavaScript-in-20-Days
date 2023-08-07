@@ -9,7 +9,9 @@
 
 # DOM (Document Object Model):boom:
 - DOM represents a document with a logical tree,Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree.
-- We can access several elemnts inter the HTML file using DOM method, for example:
-     1. Document.title: To get the title of the page.
-     2. Document.body: To access the body.
+- We can access several elements in the tree using DOM methods and change the document's structure, style, or content, for example:
+     1. `Document.title`: It returns the title of the page.
+     2. `Document.body`: It returns the body of the document.
+     3. `Document.body.children`: It returns a group of elements that's entire the body like: div, header.. 
+     4. 
  
