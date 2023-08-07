@@ -6,3 +6,5 @@
    1. On the Browsers: Console.
    2. Servers using projects called: Node.js. 
    3. Embedded devices.
+
+# DOM:boom:
