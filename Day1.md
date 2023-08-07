@@ -31,7 +31,7 @@
 
 # DELIEVERABLES⚙️
 **- Compound Assignment With Augmented Multiplication**
-<br />💡Excersie Link: https://tinyurl.com/yck2kavm
+<br />:jack_o_lantern:Excersie Link: https://tinyurl.com/yck2kavm
 <br />💡My Solution: 
 ```js
 let a = 5;
@@ -44,14 +44,14 @@ b *= 3;
 c *= 10
 ```
 **- Concatenating Strings with the Plus Equals Operator**
-<br />💡Excersie Link: https://tinyurl.com/3h8jzw4b
+<br />:jack_o_lantern:Excersie Link: https://tinyurl.com/3h8jzw4b
 <br />💡My Solution: 
 ```js
 let myStr = "This is the first sentence.";
 myStr += " This is the second sentence.";
 ```
 **- Use Bracket Notation to Find the Nth-to-Last Character in a String**
-<br />💡Excersie Link: https://tinyurl.com/bdztyv7n
+<br />:jack_o_lantern:Excersie Link: https://tinyurl.com/bdztyv7n
 <br />💡My Solution: 
 ```js
 // Setup
