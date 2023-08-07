@@ -16,6 +16,12 @@
      4. `document.getElementById("id")`: It returns a specific element that has this id.
      5. `document.querySelector("#id")`: It returns a specific element that has this css selector (#id), the same of the above point.
      6. `document.getElementsByTagName("h1")`: It returns all the elements with the same tag.
-     7. `document.querySelectorAll("h1")`: same of the above but using css selector.
-     8. 
+     7. `document.querySelectorAll("h1")`: Same of the above but using css selector.
+     8. `document.getElementsByClassName("player")`: It returns element with the same class name.
+     9. `document.querySelectorAll(".player")`: Same of the above but using css selector.
+     10. `document.getElementsByClassName("player").length`: It Finds the nubmer of elements 
+     11. `document.querySelectorAll(".player").length`: Same of the above but using css selector.
+     12. `document.getElementById("p1-name")`: To get the text element inside the selected element or container.
+ 
+  - 
  
