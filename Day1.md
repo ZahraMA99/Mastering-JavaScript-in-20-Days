@@ -41,3 +41,7 @@ let c = 4.6;
 a *= 5;
 b *= 3;
 c *= 10
+```
+**- Compound Assignment With Augmented Multiplication**
+<br />My Solution: 
+```js
