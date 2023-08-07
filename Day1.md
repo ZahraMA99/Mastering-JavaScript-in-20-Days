@@ -30,7 +30,8 @@
       3. `document.title = "my page"`: A new title for the page.
 
 # DELIEVERABLES⚙️
-**- Compound Assignment With Augmented Multiplication:**
+**- Compound Assignment With Augmented Multiplication**
+My Solution: 
 ```js
 let a = 5;
 let b = 12;
