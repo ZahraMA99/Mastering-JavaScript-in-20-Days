@@ -30,12 +30,13 @@
       3. `document.title = "my page"`: A new title for the page.
 
 # DELIEVERABLES⚙️
-- Compound Assignment With Augmented Multiplication:
-`let a = 5;
+**- Compound Assignment With Augmented Multiplication:**
+<script>`let a = 5;
 let b = 12;
 let c = 4.6;
 
 // Only change code below this line
 a *= 5;
 b *= 3;
-c *= 10;`
+c *= 10;`</script>
+  
