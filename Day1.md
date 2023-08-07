@@ -31,7 +31,7 @@
 
 # DELIEVERABLES⚙️
 **- Compound Assignment With Augmented Multiplication**
-<br />My Solution: 
+<br />💡My Solution: 
 ```js
 let a = 5;
 let b = 12;
@@ -43,13 +43,13 @@ b *= 3;
 c *= 10
 ```
 **- Concatenating Strings with the Plus Equals Operator**
-<br />My Solution: 
+<br />💡My Solution: 
 ```js
 let myStr = "This is the first sentence.";
 myStr += " This is the second sentence.";
 ```
 **- Use Bracket Notation to Find the Nth-to-Last Character in a String**
-<br />My Solution: 
+<br />💡My Solution: 
 ```js
 // Setup
 const lastName = "Lovelace";
