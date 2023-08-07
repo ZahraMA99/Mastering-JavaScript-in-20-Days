@@ -9,6 +9,11 @@
 
 # DOM (Document Object Model):boom:
 - DOM represents a document with a logical tree,Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree.
+- Changing a web page: we can change the content of the elements of our page. for example:
+       1. `document.getElementById("player").textContent = ossy"`: It will set the content of the element to the new value "ossy".
+       2. `document.getElementById("player").append(" & sofia")"`: Player content will be ossy & sofia.
+       3. `document.title = "my page"`: A new title for the page.
+          
 - We can access several elements in the tree using DOM methods and change the document's structure, style, or content, for example:
      1. `document.title`: It returns the title of the page.
      2. `document.body`: It returns the body of the document.
@@ -24,7 +29,4 @@
      12. `document.getElementById("p1-name")`: To get the text of element with this of id. 
 
  
-  - Changing a web page: we can change the content of the elements of our page. for example:
-       1. `document.getElementById("player").textContent = ossy"`: It will set the content of the element to the new value "ossy".
-       2. `document.getElementById("player").append(" & sofia")"`: Player content will be ossy & sofia.
-       3. `document.title = "my page"`: A new title for the page. 
+ 
