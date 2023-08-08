@@ -9,6 +9,8 @@
 - Objects (e.g document & friends).
   
 💡 We can use The `typeof` operator that returns a string indicating the type of the operand's value.
+    e.g: `typeOf("sofia")` returns String.
+         `typeOf(42)` returns number.
   
   
 
