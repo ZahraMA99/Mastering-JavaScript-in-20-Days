@@ -88,6 +88,6 @@
 
 **Var vs Let vs Const** :dolphin:
 
-	| Var | Let | Const |
- 	| ----| ----| ----- |
+| Var | Let | Const |
+| ----| ----| ----- |
 	
