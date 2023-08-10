@@ -39,7 +39,7 @@
 <br/>`"sofia".startsWith("s")` returns `true`.
 <br/>`"sofia".startsWith("lol")` returns `false`.
 
- 
+  ⚙️ **Exercises:**
    ```⚙️ **Exercises:**
     // Add your last name in the players listing.
         document.getElementById("p1-name").append(" Vakil")
@@ -49,9 +49,8 @@
     // Answer whether the page title contains the string "JavaScript"
         document.title.includes("javaScript") returns "false
     // Capitalize the heading "Tic Tac Toe"
-        document.querySelector("header h1").style.transform = "uppercase" returns TIC TAC TOE. <br/>```
-
-   
+        document.querySelector("header h1").style.transform = "uppercase" returns TIC TAC TOE. 
+<br/>
 🔮 **Note:** 
     <br/>JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
 
