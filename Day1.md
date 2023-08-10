@@ -29,7 +29,7 @@
       2. `document.getElementById("player").append(" & sofia")"`: Player content will be ossy & sofia.
       3. `document.title = "my page"`: A new title for the page.
 
-# DELIEVERABLES⚙️
+# Delieverables⚙️
 **- Compound Assignment With Augmented Multiplication**
 <br />:jack_o_lantern:Excersie Link: https://tinyurl.com/yck2kavm
 <br />💡My Solution: 
