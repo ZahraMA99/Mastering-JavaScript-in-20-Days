@@ -69,3 +69,7 @@
     1. divide numbers: (e.g: 5 / 5).
   
 ✨ **Comparision Operators:**
+- Greater than (>)
+- Less than (<)
+- Greater than or equal to (>=)
+- Less than or equal to (<=)
