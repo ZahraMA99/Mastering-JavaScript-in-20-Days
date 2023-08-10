@@ -38,6 +38,7 @@
 - Starts with:
 <br/>`"sofia".startsWith("s")` returns `true`.
 <br/>`"sofia".startsWith("lol")` returns `false`.
+
 ⚙️ **Exercises:**
    ```
     // Add your last name in the players listing.
