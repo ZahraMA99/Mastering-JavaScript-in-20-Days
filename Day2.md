@@ -86,9 +86,9 @@
 - Declaring: is to define a new variable without a value.
 - Assigning: is to set a value to the variable.
 
-**Var VS Let VS Const** :dolphin:
+**Var vs Let vs Const** :dolphin:
 
-	| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+	| Var | Let | Const |
+	| functional scope | block scope | block scope |
+	| It can be updated and re-declared | It can be updated but cannot be re-declared | It cannot be updated or re-declared |
+	| Paragraph | Text |
