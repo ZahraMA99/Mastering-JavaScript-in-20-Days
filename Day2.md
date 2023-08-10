@@ -84,4 +84,11 @@
 ## Expressions :sweat_drops:
 **Declaring VS assigning**:v:
 - Declaring: is to define a new variable without a value.
-- Assigning: is to set a value to the variable. 
+- Assigning: is to set a value to the variable.
+
+**Var VS Let VS Const** :dolphin:
+
+	| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
