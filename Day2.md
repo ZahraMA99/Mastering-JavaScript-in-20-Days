@@ -56,5 +56,4 @@
     JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
 
 
-  
-
+## Operators :sweat_drops:
