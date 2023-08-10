@@ -83,5 +83,5 @@
 
 ## Expressions :sweat_drops:
 :v:**Declaring VS assigning**
-      <br/>Declaring: is to define a new variable without a value.
-      <br/>Assigning: is to set a value to the variable. 
+    <br/>Declaring: is to define a new variable without a value.
+    <br/>Assigning: is to set a value to the variable. 
