@@ -19,14 +19,14 @@
 - Length of String:
 `.length` property used to know how many characters in the string. 
 (e.g):
-`"sofia".length` returns 5.
-`"some string".length` returns 4.
-`" ".length` returns 1. "space is character".
+<br/>`"sofia".length` returns 5.
+<br/>`"some string".length` returns 4.
+<br/>`" ".length` returns 1. "space is character".
 
-- index of String:
-`"sofia"[2]` returns "f".
-`"sofia".indexOf("f")` returns 2.
-`"aloha".indexOf("a")` returns 0. "It take the first appearnce of the charachter."
+- Index of String:
+<br/>`"sofia"[2]` returns "f".
+<br/>`"sofia".indexOf("f")` returns 2.
+<br/>`"aloha".indexOf("a")` returns 0. "It take the first appearnce of the charachter."
  
 
 
