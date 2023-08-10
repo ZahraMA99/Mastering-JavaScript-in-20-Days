@@ -96,4 +96,6 @@
 | It can be accessed without initialization as its default value is “undefined” | It cannot be accessed without initialization otherwise it will give ‘referenceError’ | It cannot be accessed without initialization, as it cannot be declared without initialization |
 | hoisting done, with initializing as ‘default’ value | Hoisting is done, but not initialized | Hoisting is done, but not initialized |
 
-
+**Statement VS Expression**:v:
+- Statement: Tells Js to do something.
+- Expression: Asks Js for a value.
