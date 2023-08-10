@@ -41,22 +41,22 @@
 
 
 <br/>⚙️ **Exercises:** 
-    <br/>1. Add your last name in the players listing.
-    <br/>`document.getElementById("p1-name").append(" Vakil")` 
-    <br/>2. Retrieve the first "T" in the page title.
-    <br/>`document.title` returns "JavaScripTacToe"
-    <br/>`document.title.indexOf("T")` returns 10
-    <br/>3. Answer whether the page title contains the string "JavaScript"
-    <br/>`document.title.includes("javaScript")` returns "false
-    <br/>4. Capitalize the heading "Tic Tac Toe"
-    <br/>`document.querySelector("header h1").style.transform = "uppercase"` returns TIC TAC TOE. <br/>
+    `// 1. Add your last name in the players listing.
+    document.getElementById("p1-name").append(" Vakil")
+    // 2. Retrieve the first "T" in the page title.
+    document.title returns "JavaScripTacToe"
+    document.title.indexOf("T") returns 10
+    // 3. Answer whether the page title contains the string "JavaScript"
+    document.title.includes("javaScript") returns "false
+    // 4. Capitalize the heading "Tic Tac Toe"
+    document.querySelector("header h1").style.transform = "uppercase" returns TIC TAC TOE. <br/>`
 
    
-    🔮 Note: 
-    JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
+🔮 **Note:** 
+    <br/>JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
 
 
-<br/>## Operators :sweat_drops:
+## Operators :sweat_drops:
 - Plus sign (+) 💫
 It used for several uses:
     1. Adding numbers: (e.g: 1 + 4).
