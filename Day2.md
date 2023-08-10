@@ -37,8 +37,7 @@
 
 - Starts with:
 <br/>`"sofia".startsWith("s")` returns `true`.
-<br/>`"sofia".startsWith("lol")` returns `false`.
-⚙️ **Exercises:**
+<br/>`"sofia".startsWith("lol")` returns `false`.⚙️ **Exercises:**
    ```
     // Add your last name in the players listing.
         document.getElementById("p1-name").append(" Vakil")
@@ -50,7 +49,7 @@
     // Capitalize the heading "Tic Tac Toe"
         document.querySelector("header h1").style.transform = "uppercase" returns TIC TAC TOE. 
 <br/>
-🔮 **Note:** 
+💌 **Note:**
     <br/>JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
 
 
