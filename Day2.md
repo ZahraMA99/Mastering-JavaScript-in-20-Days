@@ -15,8 +15,23 @@
  4. `typeof(document.title)` returns String.
  5. `typeof(undefiend)` returns undefined.
 
-:ab:**Srings:**
-  
+:ab: **Srings:**
+- Length of String:
+`.length` property used to know how many characters in the string. 
+(e.g):
+`"sofia".length` returns 5.
+`"some string".length` returns 4.
+`" ".length` returns 1. "space is character".
+
+- index of String:
+`"sofia"[2]` returns "f".
+`"sofia".indexOf("f")` returns 2.
+`"aloha".indexOf("a")` returns 0. "It take the first appearnce of the charachter."
+ 
+
+
+
+
 
   
 
