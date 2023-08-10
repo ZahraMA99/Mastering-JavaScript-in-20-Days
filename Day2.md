@@ -92,5 +92,8 @@
 | ----| ----| ----- |
 | functional scope | block scope | block scope |
 | It can be updated and re-declared | It can be updated but cannot be re-declared | It cannot be updated or re-declared |
+| It can be declared without initialization | It can be declared without initialization | It cannot be declared without initialization |
+| It can be accessed without initialization as its default value is “undefined” | It cannot be accessed without initialization otherwise it will give ‘referenceError’ | It cannot be accessed without initialization, as it cannot be declared without initialization |
+| hoisting done, with initializing as ‘default’ value | Hoisting is done, but not initialized | Hoisting is done, but not initialized |
 
 
