@@ -82,6 +82,6 @@
 -  ( !== ) => checks whether its two operands are not equal.
 
 ## Expressions :sweat_drops:
-- Declaring VS assigning
-  Declaring: is to define a new variable without a value.
-  Assigning: is to set a value to the variable. 
+**Declaring VS assigning**
+  <br/>Declaring: is to define a new variable without a value.
+  <br/>Assigning: is to set a value to the variable. 
