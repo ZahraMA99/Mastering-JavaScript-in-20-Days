@@ -56,7 +56,7 @@
 
 
 ## Operators :sweat_drops:
-- Plus sign (+) 💫
-It used for several uses:
+- Plus sign (+) 
+<br/>It used for several uses:
     1. Adding numbers: (e.g: 1 + 4).
     2. Concatenating strings: (e.g: "sofia" + "ali") || (e.g: "sofia" + 2). "both sides or one side at least must be string". 
