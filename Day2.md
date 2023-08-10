@@ -50,7 +50,7 @@
     <br/>4. Capitalize the heading "Tic Tac Toe"
     <br/>`document.querySelector("header h1").style.transform = "uppercase"` returns TIC TAC TOE.
 
-    🔮 **Note** 
+    🔮 Note: 
     JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
 
 
