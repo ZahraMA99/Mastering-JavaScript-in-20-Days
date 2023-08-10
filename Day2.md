@@ -38,9 +38,8 @@
 - Starts with:
 <br/>`"sofia".startsWith("s")` returns `true`.
 <br/>`"sofia".startsWith("lol")` returns `false`.
-
-  ⚙️ **Exercises:**
-   ```⚙️ **Exercises:**
+⚙️ **Exercises:**
+   ```
     // Add your last name in the players listing.
         document.getElementById("p1-name").append(" Vakil")
     // Retrieve the first "T" in the page title.
