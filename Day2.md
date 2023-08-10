@@ -39,7 +39,8 @@
 <br/>`"sofia".startsWith("s")` returns `true`.
 <br/>`"sofia".startsWith("lol")` returns `false`.
 
-⚙️ Exercises: 
+
+⚙️ **Exercises:** 
     <br/>1. Add your last name in the players listing.
     <br/>`document.getElementById("p1-name").append(" Vakil")` 
     <br/>2. Retrieve the first "T" in the page title.
@@ -49,6 +50,7 @@
     <br/>`document.title.includes("javaScript")` returns "false
     <br/>4. Capitalize the heading "Tic Tac Toe"
     <br/>`document.querySelector("header h1").style.transform = "uppercase"` returns TIC TAC TOE.
+
 
     🔮 Note: 
     JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
