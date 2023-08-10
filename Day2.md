@@ -56,13 +56,16 @@
 
 
 ## Operators :sweat_drops:
+**Arthimitic Operators:**
 - Plus sign (+) 
 <br/>It used for several uses:
     1. Adding numbers: (e.g: 1 + 4).
     2. Concatenating strings: (e.g: "sofia" + "ali") || (e.g: "sofia" + 2). "both sides or one side at least must be string".
-- subtraction sign (-)
+- Subtract sign (-)
     1. Subtract numbers: (e.g: 8 - 4).
-- multiplication sign (*)
+- Multiple sign (*)
     1. multiplicate numbers: (e.g: 2 * 4).
-- division sign (/)
+- Division sign (/)
     1. divide numbers: (e.g: 5 / 5).
+  
+**Comparision Operators:**
