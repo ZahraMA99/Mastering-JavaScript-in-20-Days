@@ -39,9 +39,9 @@
 <br/>`"sofia".startsWith("s")` returns `true`.
 <br/>`"sofia".startsWith("lol")` returns `false`.
 
-
+ ```
 <br/>⚙️ **Exercises:** 
-    ```// 1. Add your last name in the players listing.
+   // 1. Add your last name in the players listing.
     document.getElementById("p1-name").append(" Vakil")
     // 2. Retrieve the first "T" in the page title.
     document.title returns "JavaScripTacToe"
