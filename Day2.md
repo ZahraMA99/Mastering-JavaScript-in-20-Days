@@ -40,16 +40,16 @@
 <br/>`"sofia".startsWith("lol")` returns `false`.
 
  
-    ```⚙️ **Exercises:** 
-   // 1. Add your last name in the players listing.
-    document.getElementById("p1-name").append(" Vakil")
-    // 2. Retrieve the first "T" in the page title.
-    document.title returns "JavaScripTacToe"
-    document.title.indexOf("T") returns 10
-    // 3. Answer whether the page title contains the string "JavaScript"
-    document.title.includes("javaScript") returns "false
-    // 4. Capitalize the heading "Tic Tac Toe"
-    document.querySelector("header h1").style.transform = "uppercase" returns TIC TAC TOE. <br/>```
+    ⚙️ **Exercises:** ```
+    // Add your last name in the players listing.
+        document.getElementById("p1-name").append(" Vakil")
+    // Retrieve the first "T" in the page title.
+        document.title returns "JavaScripTacToe"
+        document.title.indexOf("T") returns 10
+    // Answer whether the page title contains the string "JavaScript"
+        document.title.includes("javaScript") returns "false
+    // Capitalize the heading "Tic Tac Toe"
+        document.querySelector("header h1").style.transform = "uppercase" returns TIC TAC TOE. <br/>```
 
    
 🔮 **Note:** 
