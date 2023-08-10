@@ -100,5 +100,5 @@
 - Statement: Tells Js to do something.
 - Expression: Asks Js for a value.
 
-## DELIEVERABLES⚙️
+## Delieverables⚙️
 
