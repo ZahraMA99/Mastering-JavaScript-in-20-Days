@@ -14,7 +14,9 @@
  3. `typeof(null)` returns object. "Sometimes js does stuff that we don't expect.:sweat_smile:"
  4. `typeof(document.title)` returns String.
  5. `typeof(undefiend)` returns undefined.
- 6. 
+
+:ab:**Srings:**
   
+
   
 
