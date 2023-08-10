@@ -33,6 +33,9 @@
 <br/>`"sofia".includes("f")` returns `true`.
 <br/>`"sofia".includes("lol")` returns `false`.
 
+- Starts with:
+<br/>`"sofia".startsWith("s")` returns `true`.
+<br/>`"sofia".startsWith("lol")` returns `false`.
 
 
 
