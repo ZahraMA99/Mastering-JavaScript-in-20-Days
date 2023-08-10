@@ -28,6 +28,8 @@
 <br/>`"sofia".indexOf("f")` returns 2.
 <br/>`"aloha".indexOf("a")` returns 0. "It take the first appearnce of the charachter."
 <br/>`"sofia".indexOf("z")` returns -1. "convention in js🚩! if characters not exist in the string, `indexof` will return -1".
+<br/>`"sofia".indexOf("fia")` returns 2.
+<br/>`"sofia".indexOf("lol")` returns -1. 
 
 - Includes:
 <br/>`"sofia".includes("f")` returns `true`.
@@ -37,8 +39,19 @@
 <br/>`"sofia".startsWith("s")` returns `true`.
 <br/>`"sofia".startsWith("lol")` returns `false`.
 
+⚙️ Exercises: 
+    1. Add your last name in the players listing.
+    `document.getElementById("p1-name").append(" Vakil")` 
+    2. Retrieve the first "T" in the page title.
+    `document.title` returns `"JavaScripTacToe"`
+    `document.title.indexOf("T")` returns `10`
+    3. Answer whether the page title contains the string "JavaScript"
+    `document.title.includes("javaScript")` returns `"false`
+    4. Capitalize the heading "Tic Tac Toe"
+    `document.querySelector("header h1").style.transform = "uppercase"` returns TIC TAC TOE.
 
-
+    🔮 Note: 
+    JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
 
 
   
