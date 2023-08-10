@@ -29,7 +29,10 @@
 <br/>`"aloha".indexOf("a")` returns 0. "It take the first appearnce of the charachter."
 <br/>`"sofia".indexOf("z")` returns -1. "convention in js🚩! if characters not exist in the string, `indexof` will return -1".
 
- 
+- Includes:
+<br/>`"sofia".includes("f")` returns `true`.
+<br/>`"sofia".includes("lol")` returns `false`.
+
 
 
 
