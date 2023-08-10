@@ -56,7 +56,7 @@
 
 
 ## Operators :sweat_drops:
-**Arthimitic Operators:**
+✨ **Arthimitic Operators:**
 - Plus sign (+) 
 <br/>It used for several uses:
     1. Adding numbers: (e.g: 1 + 4).
@@ -68,4 +68,4 @@
 - Division sign (/)
     1. divide numbers: (e.g: 5 / 5).
   
-**Comparision Operators:**
+✨ **Comparision Operators:**
