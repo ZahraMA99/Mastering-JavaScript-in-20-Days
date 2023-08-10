@@ -43,15 +43,15 @@
     <br/>1. Add your last name in the players listing.
     <br/>`document.getElementById("p1-name").append(" Vakil")` 
     <br/>2. Retrieve the first "T" in the page title.
-    <br/>`document.title` returns `"JavaScripTacToe"`
-    <br/>`document.title.indexOf("T")` returns `10`
+    <br/>`document.title` returns "JavaScripTacToe"
+    <br/>`document.title.indexOf("T")` returns 10
     <br/>3. Answer whether the page title contains the string "JavaScript"
-    <br/>`document.title.includes("javaScript")` returns `"false`
+    <br/>`document.title.includes("javaScript")` returns "false
     <br/>4. Capitalize the heading "Tic Tac Toe"
     <br/>`document.querySelector("header h1").style.transform = "uppercase"` returns TIC TAC TOE.
 
-🔮 Note: 
-JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
+    🔮 Note: 
+    JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
 
 
   
