@@ -90,4 +90,8 @@
 
 | Var | Let | Const |
 | ----| ----| ----- |
-	
+| functional scope | block scope | block scope |
+| ----------- | ----------- | ----------- |
+| It can be updated and re-declared | It can be updated but cannot be re-declared | It cannot be updated or re-declared |
+| ----------- | ----------- | ----------- |
+
