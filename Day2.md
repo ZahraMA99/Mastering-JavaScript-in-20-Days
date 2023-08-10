@@ -67,9 +67,16 @@
     1. multiplicate numbers: (e.g: 2 * 4).
 - Division sign (/)
     1. divide numbers: (e.g: 5 / 5).
+- Reminder sign (%)
+    1. Reminde numbers: (e.g: 5 % 5).
   
 ✨ **Comparision Operators:**
 - Greater than (>)
 - Less than (<)
 - Greater than or equal to (>=)
 - Less than or equal to (<=)
+
+✨ **Equality Operators:**
+-  ( == ) => compares just the value.
+-  ( === ) => compares value and type.
+-  ( !== ) => checks whether its two operands are not equal.
