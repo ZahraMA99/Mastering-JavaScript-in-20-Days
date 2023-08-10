@@ -56,4 +56,8 @@
     JS CAN MANIPULATE THE HTML AND CSS OF THE PAGE
 
 
-## Operators :sweat_drops:
+<br/>## Operators :sweat_drops:
+- Plus sign (+) 💫
+It used for several uses:
+    1. Adding numbers: (e.g: 1 + 4).
+    2. Concatenating strings: (e.g: "sofia" + "ali") || (e.g: "sofia" + 2). "both sides or one side at least must be string". 
