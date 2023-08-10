@@ -40,7 +40,7 @@
 <br/>`"sofia".startsWith("lol")` returns `false`.
 
 
-⚙️ <br/>**Exercises:** 
+<br/>⚙️ **Exercises:** 
     <br/>1. Add your last name in the players listing.
     <br/>`document.getElementById("p1-name").append(" Vakil")` 
     <br/>2. Retrieve the first "T" in the page title.
