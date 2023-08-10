@@ -97,8 +97,8 @@
 | hoisting done, with initializing as ‘default’ value | Hoisting is done, but not initialized | Hoisting is done, but not initialized |
 
 **Statement VS Expression**:v:
-- Statement: Tells Js to do something.
-- Expression: Asks Js for a value.
+- Statement: Tells Js to do something. e.g: `let name = "sofia";`
+- Expression: Asks Js for a value. e.g: `console.log(document.title)";`
 
 ## Delieverables⚙️
 
