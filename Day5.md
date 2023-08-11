@@ -36,7 +36,7 @@ for (let ob of optionButtons){
 ## Map & Filters:hourglass_flowing_sand:
 - `.map` creates a new array with the results of calling a provided function on every element in the calling array.
 - `.filter` creates a new array filled with elements that pass a test provided by a function.
--  
+  
 >💌 Note:
 >Arrow function are useful for map method.<br/>
 
