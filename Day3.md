@@ -48,11 +48,11 @@ WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
 EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIKE STRING, BOOLEAN, NUMBERS..
 
 ### Quiz Project :cyclone:
-  `
+`
   <!DOCTYPE html>
 <!-- saved from url=(0063)https://anjana.dev/javascript-first-steps/2-jsquiz-starter.html -->
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+    `
     <title>Quiz.js</title>
     <style>
         body {
@@ -108,21 +108,21 @@ EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIK
     <h1>Quiz.js</h1>
     <p>Do you know JS? Find out!</p>
     </header>
-
+    `
     <main>
     <div id="statement">
-        
+    `    
     </div>
-
+`
     <div id="options">
         <button name="true" value="true">true</button>
         <button name="false" value="false">false</button>
-    </div>
-
+`    </div>
+`
     <div id="explanation">
-
+`
     </div>
-
+`
     </main>
 
   
@@ -130,7 +130,7 @@ EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIK
   <script type="text/javascript">
 
 
-    // TODO 1: Declare & assign variables pointing to the corresponding element(s)
+ `   // TODO 1: Declare & assign variables pointing to the corresponding element(s)
     // statement should be the "statement" div
     const statement = document.getElementById("statement");
     // optionButtons should be all the elements within the "options" div
@@ -139,7 +139,7 @@ EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIK
     const explanation = document.getElementById("explanation");
 
 
-    // TODO 2: Declare & assign a variable called fact
+  `  // TODO 2: Declare & assign a variable called fact
     // Its value should be an object with a statement, true/false answer, and explanation 
     const fact = {
         statement:"Arrays are just like objects",
@@ -151,7 +151,7 @@ EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIK
     
     // TODO 3: Set the text of the statement element to the fact's statement
     statement.textContent = fact.statement;
-        
+ `       
 
     // TODO 4: Declare disable & enable functions to set or remove the "disabled" attribute from a given button element
     // disable(button) should set the button element's attribute "disabled" to the value ""
