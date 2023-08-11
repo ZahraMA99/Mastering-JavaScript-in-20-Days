@@ -6,6 +6,7 @@
 
 >💌 Note:
 >IF WE WANT TO PASS VARIABLES TO CONSOLE.LOG STATMENT WE SEPARAYE THEM BETWEEN **COMMAS**.
+>(e.g. console.log(x, "is less than", y). 
 
 
 
