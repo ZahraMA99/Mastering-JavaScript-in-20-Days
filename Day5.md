@@ -40,7 +40,7 @@ for (let ob of optionButtons){
 >💌 Note:
 >Arrow function are useful for map method.<br/>
 
->💌 Note:
+>💌 Note
 ```
  console.log( "My name" + s.name + "Aqel" ) is equivelent to console.log( `My name ${s.name} Aqel` );
 ```
