@@ -36,5 +36,13 @@ WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
 
 
 ## Objects :pushpin:
+**Object** type represents one of JavaScript's data types. It is used to store various keyed collections and more complex entities.
+
+- Built-In Objects:
+  1. document
+  2. console
+  3. Math
+  4. 
+ 
  💌 Note:<br/>
 EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIKE STRING, BOOLEAN, NUMBERS..
