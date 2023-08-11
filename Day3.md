@@ -42,7 +42,12 @@ WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
   1. document
   2. console
   3. Math
-  4. 
+  4. String
  
  💌 Note:<br/>
 EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIKE STRING, BOOLEAN, NUMBERS..
+
+### Quiz Project :cyclone:
+  ```
+  kmfkdmfkd
+  ```
