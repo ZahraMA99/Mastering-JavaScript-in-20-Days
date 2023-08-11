@@ -5,7 +5,7 @@
 - Return values: specifies the functions output value.
 
 **Arrow Functions** :leftwards_arrow_with_hook:
-An arrow function expression is a compact alternative to a traditional function expression, with some semantic differences.
+<br/>An arrow function expression is a compact alternative to a traditional function expression, with some semantic differences.
 <br/>`Syntax` :microscope:
 <br/>Identifier nameOfTheFunction = parameters => what to do
 
