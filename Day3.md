@@ -31,4 +31,4 @@ WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
    const newSum = operands[0] + operands[1];
    Result: 11.
   ```
-## Objects :paperclip:
+## Objects :pushpin:
