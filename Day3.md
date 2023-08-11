@@ -24,10 +24,15 @@
  💌 Note:
 WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
 <br/> WE HAVE TO DISTINGUISH BETWEEN THE IMMUTABILITY OF CONST VARIABLES AND THE MUTABILITY OF VALUES THAT WE ASSIGN TO THEM. SO IT'S POSSIABLE TO HAVE AN IMMUTABLE REFERANCE, IMMUTABLE ARROW :arrow_right: A MUTABLE VALUE.<BR/> WE MEAN ARRAY ITSELF HASN'T CHANGED "ARRAY NAME STILL A POINTER TO THE [] ITSELF", BUT THE VALUES INSIDE THE ARRAY CAN BE CHANGABLE "WE CAN STILL MESS WITH IT". 
-```
- const operands = [4,5];
- const sum = operands[0] + operands[1];
- operands[0] = 6;
- const newSum = operands[0] + operands[1];
- Result: 11.
+  ```
+   const operands = [4,5];
+   const sum = operands[0] + operands[1];
+   operands[0] = 6;
+   const newSum = operands[0] + operands[1];
+   Result: 11.
+
+
+
+
+
 
