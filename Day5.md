@@ -48,5 +48,6 @@ for (let ob of optionButtons){
 - We can use it to put all the items from one array inside another array "concat".
 - We can use it to pass all the items from an array as argumant to a function or method.
 
+## Doggos Quiz Game Setup:dog:
   
 ## Delieverables⚙️
