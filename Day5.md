@@ -44,5 +44,9 @@ for (let ob of optionButtons){
 ```
  console.log( "My name" + s.name + "Aqel" ) is equivelent to console.log( `My name ${s.name} Aqel` );
 ```
+### Spread::stars:
+- We can use it to put all the items from one array inside another array "concat".
+- We can use it to pass all the items from an array as argumant to a function or method.
 
+  
 ## Delieverables⚙️
