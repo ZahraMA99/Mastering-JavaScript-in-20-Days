@@ -20,5 +20,5 @@ An arrow function expression is a compact alternative to a traditional function 
 <br/>addEventListener(type, listener)
 <br/>addEventListener(type, listener, options)
 > We pass two parameter to the method:
->   1. The name of the event that I care about. (e.g. click, dbclick, mouseover, mouseout..).
+>   1. The name of the event that I care about. (e.g. click, dbclick, mouseover, mouseout, hover..).
 >   2. Arrow function becuse we don't really need to name it! it's called a **callback function** || **event handler function**. 
