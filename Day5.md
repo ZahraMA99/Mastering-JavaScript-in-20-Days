@@ -41,6 +41,6 @@ for (let ob of optionButtons){
 >Arrow function are useful for map method.<br/>
 
 >💌 Note:
-> console.log( "My name" + s.name + "Aqel" ) is equivelent to console.log(` My name ${s.name} Aqel`);<br/>
+> console.log( "My name" + s.name + "Aqel" ) is equivelent to console.log(  َMy name ${s.name} Aqelَ );<br/>
 
 ## Delieverables⚙️
