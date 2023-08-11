@@ -21,4 +21,12 @@
 - Mutable: data can be edited. (e.g. Arrays)
 - Immutable: data always stays the same. (e.g. Strings & other primitives)
 
- 
+ 💌 Note:
+WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
+<br/> WE HAVE TO DISTINGUISH BETWEEN THE IMMUTABILITY OF CONST VARIABLES AND THE MUTABILITY OF VALUES THAT WE ASSIGN TO THEM. SO IT'S POSSIABLE TO HAVE AN IMMUTABLE REFERANCE, AN IMMUTABLE POINTER, IMMUTABLE ARROW TO A MUTABLE VALUE. <BR/> AS I UNDERSTAND THE ARRAY ITSELF STILL ARRAY NOT CHANGED BUT THE REFERENCE INSIDE IT BECOME A POINTER TO A NEW PLACE- NEW VARIABLE. 
+```
+ const operands = [4,5];
+ const sum = operands[0] + operands[1];
+ operands[0] = 6;
+ const newSum = operands[0] + operands[1];
+ Result: 11.
