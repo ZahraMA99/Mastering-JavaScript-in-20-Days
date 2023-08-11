@@ -14,3 +14,4 @@
 > - For multiaple parameters, parantheses are required.
 > - If we need to do more than just return a value, we can curly braces for a "norma" function body. In that case we still need return. 
 
+## Events & Handlers :saxophone::video_game:
