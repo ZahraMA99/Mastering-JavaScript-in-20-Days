@@ -15,3 +15,10 @@
 > - If we need to do more than just return a value, we can curly braces for a "norma" function body. In that case we still need return. 
 
 ## Events & Handlers :saxophone:
+**Add Event Listener** let us listen for events on a DOM element. 
+<br/>`Syntax` :microscope:
+<br/>addEventListener(type, listener)
+<br/>addEventListener(type, listener, options)
+> We pass two parameter to the method:
+>   1. The name of the event that I care about. (e.g. click).
+>   2. Arrow function becuse we don't really need to name it! it's called a **callback function** || **event handler function**. 
