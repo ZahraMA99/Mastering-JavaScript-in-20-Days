@@ -13,10 +13,10 @@
   2. for of: iterative over items in array or over characters in a string.
   3. for in:  iterates only over keys of an object which have their enumerable property set to “true”.
 
-### Complete TicTacToe project:
+### Complete TicTacToe project::confetti_ball:
 ```
-for (let b of optionButtons){
-        b.addEventListener("click", event =>{
+for (let ob of optionButtons){
+        ob.addEventListener("click", event =>{
                         
             explanation.textContent = fact.explanation
 
@@ -25,9 +25,9 @@ for (let b of optionButtons){
         
 
             if (isCorrect(b.value)){
-                b.classList.add("correct")
+                ob.classList.add("correct")
             }else{
-                b.classList.add("incorrect")
+                ob.classList.add("incorrect")
             }
 
         })
