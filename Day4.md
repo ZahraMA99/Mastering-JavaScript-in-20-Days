@@ -9,7 +9,7 @@
 <br/>`Syntax` :microscope:
 <br/>Identifier nameOfTheFunction = parameters => what to do
 
-> Since Arrow function are expressions, we can assign them to a variable.
+> - Since Arrow function are expressions, we can assign them to a variable.
 > For one parameter functions, parantheses are optional.
 > For multiaple parameters, parantheses are required.
 > If we need to do more than just return a value, we can curly braces for a "norma" function body. In that case we still need return. 
