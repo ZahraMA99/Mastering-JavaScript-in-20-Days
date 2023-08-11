@@ -19,13 +19,12 @@
 
 **Mutable and Immutable data:**:cactus: 
 - Mutable: data can be edited. (e.g. Arrays)
-- Immutable: data always stays the same. (e.g. Strings & other primitives)
+- Immutable: data always stays the same. (e.g. Strings & other primitives) => If you have the choice keep thing immutable.
 
  💌 Note:
 WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
-<br/> WE HAVE TO DISTINGUISH BETWEEN THE IMMUTABILITY OF CONST VARIABLES AND THE MUTABILITY OF VALUES THAT WE ASSIGN TO THEM. SO IT'S POSSIABLE TO HAVE AN IMMUTABLE REFERANCE, IMMUTABLE ARROW :arrow_right: A MUTABLE VALUE.<BR/> WE MEAN ARRAY ITSELF HASN'T CHANGED "ARRAY NAME STILL A POINTER TO THE [] ITSELF", BUT THE VALUES INSIDE THE ARRAY CAN BE CHANGABLE "WE CAN STILL MESS WITH IT". 
-- If you have the choice keep thing immutable.
-- The default for array is const unlees you have a good reson to use let.
+<br/> WE HAVE TO DISTINGUISH BETWEEN THE IMMUTABILITY OF CONST VARIABLES AND THE MUTABILITY OF VALUES THAT WE ASSIGN TO THEM. SO IT'S POSSIABLE TO HAVE AN IMMUTABLE REFERANCE, IMMUTABLE ARROW :arrow_right: A MUTABLE VALUE.<BR/> WE MEAN ARRAY ITSELF HASN'T CHANGED "ARRAY NAME STILL A POINTER TO THE [] ITSELF", BUT THE VALUES INSIDE THE ARRAY CAN BE CHANGABLE "WE CAN STILL MESS WITH IT".<br/> The default for array is const unlees you have a good reson to use let.
+
   ```
    const operands = [4,5];
    const sum = operands[0] + operands[1];
@@ -33,6 +32,8 @@ WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
    const newSum = operands[0] + operands[1];
    Result: 11.
   ```
+
+
 ## Objects :pushpin:
  💌 Note:<br/>
 EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIKE STRING, BOOLEAN, NUMBERS..
