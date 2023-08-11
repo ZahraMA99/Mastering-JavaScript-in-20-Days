@@ -20,6 +20,7 @@
 <br/>addEventListener(type, listener)
 <br/>addEventListener(type, listener, options)
 ```
+// Example
 document.addEventListener("click", () => {
     console.log("clicked")
 })
