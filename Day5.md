@@ -37,10 +37,10 @@ for (let ob of optionButtons){
 - `.map` creates a new array with the results of calling a provided function on every element in the calling array.
 - `.filter` creates a new array filled with elements that pass a test provided by a function. 
 
->💌 Note:<br/>
+>💌 Note:
 >ARROW FUNCTION ARE USEFUL FOR MAP METHOD.<br/>
 
->💌 Note:<br/>
+>💌 Note:
 > console.log( "My name" + s.name + "Aqel" ) is equivelent to console.log(` My name ${s.name} Aqel`);<br/>
 
 ## Delieverables⚙️
