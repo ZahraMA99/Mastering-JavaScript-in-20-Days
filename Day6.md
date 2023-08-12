@@ -95,6 +95,5 @@ function whyIsntThisWorking(input) {
 > 1. `.trim()` method removes whitespace from both ends of a string and returns a new string, without modifying the original string.<br/>
 > 2. In JS we can creat any element we want to appeare in HTML page.
 
-
-
+## Delieverables⚙️
 
