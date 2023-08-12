@@ -23,8 +23,21 @@ console.log(response);
 > 💌 Note: **Json() is async function**
 
 ## Destructuring Data:sweat_drops:
+- Destructuring is a fancy way of declaring multiple variables at once By "extracting" values from an object with their property names.
+```
+const spices = [{name:"Sarah", nickname:"queen"}]
+let {name, nickname} = spices[0];
+```
+- With arrays:
+```
+const [one, tow ] = [1,2]
 
+// We can ignore the values in the array we don't need
+const [,,melB] = spices;
 
+// We can use ... to collect remaining values
+ const [babySpice, ...adultSpices] = spices;
+```
 
 
 
