@@ -7,4 +7,4 @@ API Fetch:
   3. Rejected: sorry could't get the value, all done.<br/>
 => It takes time for promises to resolve, so they are "asynchronous".
 
-:sparkles:Are promisies only use with api calls or will we sim them in another usage? yes, we will see them in other different cases. Fetch is one example of an operation or a function that returns a promise. 
+:sparkles:Are promisies only use with api calls or will we sim them in another usage?<br/> yes, we will see them in other different cases. Fetch is one example of an operation or a function that returns a promise. 
