@@ -28,6 +28,8 @@
       1. `document.getElementById("player").textContent = ossy"`: It will set the content of the element to the new value "ossy".
       2. `document.getElementById("player").append(" & sofia")"`: Player content will be ossy & sofia.
       3. `document.title = "my page"`: A new title for the page.
+>💌 Note:<br/> 
+>querySelector: this method returns the first element while querySelectorAll: this method returns a NodeList containing all elements that match the specified selector.
 
 # Delieverables⚙️
 **- Compound Assignment With Augmented Multiplication**
