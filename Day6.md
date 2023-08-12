@@ -22,6 +22,7 @@ console.log(response);
 <br/>representing structured data based on JavaScript object syntax (It's body contains the data we care about).
 > 💌 Note: **Json() is async function**
 
+## Destructuring Data:sweat_drops:
 
 
 
