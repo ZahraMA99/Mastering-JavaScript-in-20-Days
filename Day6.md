@@ -38,6 +38,22 @@ const [,,melB] = spices;
 // We can use ... to collect remaining values
  const [babySpice, ...adultSpices] = spices;
 ```
+🎃**Execise:**
+```
+/*
+	In your Doggo Fetch file, follow TODO 2 to complete the getBreedFromURL 
+	function with destructuring
+	
+	The string method .split() will be useful it returns an array of substrings
+	 by splitting a string at a certain character: 
+*/
+let part = "https://images.dog.ceo/breeds/poodle-standard/n02113799_2280.jpg"
+         .split("/") // parts of url
+let name =  part[4] // the name
+let removed = name.split("-")
+let joinedName = removed.join(" ")
+let finalName = joinedName.trim() // to remove the white spaces if the name just one word
+```
 
 
 
