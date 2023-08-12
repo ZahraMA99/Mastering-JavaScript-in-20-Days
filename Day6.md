@@ -1,11 +1,12 @@
 ## Data Fetching & Promisies :golf::traffic_light:
 API Fetch:
 
-:sparkles:**Promises** can be in 3 possible states:
+:sparkles:**Promises:**
 <br/>Object represents the eventual completion or failure of an asynchronous operation and its resulting value "represent a value that we don’t have yet".
-  1. `Pending`: still waiting for the value, hang tight.
-  2. `Fulfilled(aka"resolved")`: finally got the value, all done.
-  3. `Rejected`: sorry could't get the value, all done.<br/>
+-  Promises can be in 3 possible states:
+    1. `Pending`: still waiting for the value, hang tight.
+    2. `Fulfilled(aka"resolved")`: finally got the value, all done.
+    3. `Rejected`: sorry could't get the value, all done.<br/>
 => It takes time for promises to resolve, so they are "asynchronous".
 
 :sparkles:Are promisies only use with api calls or will we sim them in another usage?<br/> yes, we will see them in other different cases. Fetch is one example of an operation or a function that returns a promise. 
