@@ -91,7 +91,7 @@ function whyIsntThisWorking(input) {
 }
 ```
 - The debugger statement creates a breakpoint where JS will pause and let you look around.
-> 💌 Notes:
+> 💌 Notes:<br/>
 > `.trim()` method removes whitespace from both ends of a string and returns a new string, without modifying the original string.<br/>
 > In JS we can creat any element we want to appeare in HTML page.
 
