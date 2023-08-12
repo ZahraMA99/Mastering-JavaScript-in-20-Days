@@ -20,7 +20,7 @@ console.log(response);
 
 :sparkles:**.json():**
 <br/>representing structured data based on JavaScript object syntax (It's body contains the data we care about).
-> 💡 **Json() is async function**
+> 💌 Note: **Json() is async function**
 
 
 
