@@ -54,8 +54,46 @@ let removed = name.split("-")
 let joinedName = removed.join(" ")
 let finalName = joinedName.trim() // to remove the white spaces if the name just one word
 ```
+## Async:notes:
+- `.createElement()`: In an HTML document, the document.createElement() method creates the HTML element specified by tagName.
+```
+const button = document.createElement("button")
+```
+- `.appendChild()`: The appendChild() method of the Node interface adds a node to the end of the list of children of a specified parent node.
+```
+options.appendChild(button)
+```
+## Modules :earth_africa:
+- Modules let us split big codebases across multiple files.
+```
+  <script type="module">
+    //...
+</script>
 
+// JS modules work differently from JS scripts
+```
+- Module scope: We can't access variables and function in the web console.
 
+## Debugging :seedling:
+- We can console.log() (or .warn() or .error()) is one way to understand what's happening when your program runs.
+```
+function whyIsntThisWorking(input) {
+    console.log("Well at least we got this far");
+    console.log(input);
+    return thingThatDoesntWork(input);
+}
+```
+- You can also use the browser's debugger to pause JS and inspect what's happening.
+```
+function whyIsntThisWorking(input) {
+    debugger;
+    return thingThatDoesntWork(input);
+}
+```
+- The debugger statement creates a breakpoint where JS will pause and let you look around.
+> 💌 Notes:
+> `.trim()` method removes whitespace from both ends of a string and returns a new string, without modifying the original string.
+> In JS we can creat any element we want to appeare in HTML page.
 
 
 
