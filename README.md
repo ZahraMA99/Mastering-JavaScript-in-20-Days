@@ -6,6 +6,6 @@
 - Objective: Improve JavaScript proficiency through daily learning and practice
   
 ## :books:Courses
-- JavaScript: From First Steps to Professional
-- JavaScript: The Hard Parts, v2
+- JavaScript: From First Steps to Professional (Day1-Day6).
+- JavaScript: The Hard Parts, v2 (Day7-Day11).
 - Deep JavaScript Foundations, v3
