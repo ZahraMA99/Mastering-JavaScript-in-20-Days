@@ -101,7 +101,7 @@
 - Expression: Asks Js for a value. e.g: `console.log(document.title)";`
 
 ## Delieverables⚙️
-**QUESTION #1**
+**QUESTION #1**<br/>
 🎃 Consider the following JavaScript code:
 ```
 let a = 0;
@@ -116,4 +116,47 @@ console.log(!!d);
 💡 Solution:<br/>
 1. true: becuse == will compare just the value not the datatype.
 2. false: becuse === will compare the both value and datatype.
-3. true: because ! will cast string into true because its not empty and then to false. then the second ! will get true. 
+3. true: because ! will cast string into true because its not empty and then to false. then the second ! will get true.<br/>
+
+**QUESTION #2**<br/>
+🎃Consider the following JavaScript expression:
+```
+console.log(4 + 5 * "7");
+```
+What will be the output of this expression? You MUST explain the steps of evaluation taken by JS.<br/>
+💡 Solution:<br/>
+Output = 39. because initially string "7" will cast into number = 7. then multiplication operator take the high priority so 5 * 7 = 35, 35 + 4 = 39.<br/>
+
+**QUESTION #3**<br/>
+🎃 Evaluate the following expression:
+```
+let result = 5 + 2 * 3 - 1;
+```
+What will be the output of this expression? You MUST explain the steps of evaluation taken by JS.<br/>
+💡 Solution:<br/>
+Output = 10. priority for * so 2 * 3 = 6, then 6 + 5 = 11 - 1 = 10 || 6 - 1 = 5 + 5 = 10.<br/>
+
+**QUESTION #4**<br/>
+🎃 Consider the following code:
+```
+let x = 10;
+let y = '10';
+console.log(x == y);
+console.log(x === y);
+```
+What will be the output of each console.log statement? You MUST explain WHY.<br/>
+💡 Solution:<br/>
+1. true: becuse == will compare just the value not the datatype.
+2. false: becuse === will compare the both value and datatype.<br/>
+
+**QUESTION #5**<br/>
+🎃 Given the code below:
+```
+let num = "15";
+let isPositive = true;
+let result = (num > 10 && isPositive) || num < 0;
+console.log(result);
+```
+What is the value of result? You MUST explain the steps of evaluation taken by JS>br/>
+💡 Solution:<br/>
+True. "15" will cast into 15. 15 > 10 => true, true && true => true. true || false = true. in case of or there's no need to check  the secnd part pf the statment when the first part is true. 
