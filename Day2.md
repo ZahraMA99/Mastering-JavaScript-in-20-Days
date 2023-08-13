@@ -157,6 +157,6 @@ let isPositive = true;
 let result = (num > 10 && isPositive) || num < 0;
 console.log(result);
 ```
-What is the value of result? You MUST explain the steps of evaluation taken by JS>br/>
+What is the value of result? You MUST explain the steps of evaluation taken by JS<br/>
 💡 Solution:<br/>
 True. "15" will cast into 15. 15 > 10 => true, true && true => true. true || false = true. in case of or there's no need to check  the secnd part pf the statment when the first part is true. 
