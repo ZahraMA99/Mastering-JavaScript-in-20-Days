@@ -101,4 +101,19 @@
 - Expression: Asks Js for a value. e.g: `console.log(document.title)";`
 
 ## Delieverables⚙️
+**QUESTION #1**
+🎃 Consider the following JavaScript code:
+```
+let a = 0;
+let b = "0";
+let c = false;
+let d = "false";
 
+console.log(a == b);
+console.log(b === c);
+console.log(!!d);
+```
+💡 Solution:<br/>
+1. true: becuse == will compare just the value not the datatype.
+2. false: becuse === will compare the both value and datatype.
+3. true: because ! will cast string into true because its not empty and then to false. then the second ! will get true. 
