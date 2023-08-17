@@ -52,5 +52,11 @@ They can co-exist and can be treated like any other javascript object:<br/>
 - But at least for our purposes here they are 'syntactic sugar' we'll see their full effects later.
 - Understanding how they're working under-the-hood is vital to avoid confusion.
 
+#### Pair programming::confetti_ball:🎯
+- Tackle blocks with a partner.
+- Stay focused on the problem.
+- Refine technical communication.
+- Collaborate to solve problem.
+  
 ## Delieverables⚙️
 
