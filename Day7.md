@@ -29,9 +29,9 @@
 ### How was passing function in onther function possiable :question::exclamation:
 **Function in javascript = first class object<br/>**
 They can co-exist and can be treated like any other javascript object:<br/>
-    - Assigned to variables and properties of other objects.
-    - Passed an arguments into functions.
-    - Returned as values from functions. 
+1. Assigned to variables and properties of other objects.
+2. Passed an arguments into functions.
+3. Returned as values from functions. 
     
     
 
