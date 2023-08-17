@@ -24,4 +24,15 @@
 - We may not want to decide exactly what some of our functionality is unti we run our function.
 
 >💌 Note:<br/>
-> We could generalize our function - So we pass in our specific instruction only when we run the mother function (big/first function). 
+> We could generalize our function - So we pass in our specific instruction only when we run the mother function (big/first function).
+
+### How was passing function in onther function possiable :question::exclamation:
+**Function in javascript = first class object<br/>**
+They can co-exist and can be treated like any other javascript object:<br/>
+    1. Assigned to variables and properties of other objects.
+    2. Passed an arguments into functions.
+    3. Returned as values from functions. 
+    
+    
+
+
