@@ -7,8 +7,8 @@
 - **Functions:** Code we save() ('define') functions & can use (call/invoke/execute/run) later with the function's name & {}.
 - **Excution context:** Created to run the code of a function - has 2 parts (we've already seen them!):
     1. Tread of execution.
-    2. Memory.
-    Example:
-    
+    2. Memory.<br/>
+    Example: 
+    <img src="[/image/sample.png](https://github.com/ZahraMA99/Mastering-JavaScript-in-20-Days/blob/main/Images/js%20principles.jpeg)https://github.com/ZahraMA99/Mastering-JavaScript-in-20-Days/blob/main/Images/js%20principles.jpeg" alt="alt text" />
     
   
