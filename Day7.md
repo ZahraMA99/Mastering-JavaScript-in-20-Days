@@ -8,7 +8,4 @@
 - **Excution context:** Created to run the code of a function - has 2 parts (we've already seen them!):
     1. Tread of execution.
     2. Memory.<br/>
-    Example: 
-    <img src="https://github.com/ZahraMA99/Mastering-JavaScript-in-20-Days/blob/main/Images/js%20principles.jpeg)https://github.com/ZahraMA99/Mastering-JavaScript-in-20-Days/blob/main/Images/js%20principles.jpeg" width = 100%  hight = 40%/>
-    
-  
+ 
