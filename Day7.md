@@ -22,4 +22,6 @@
 - Then provide an actual value ('arguments') when we run the function.
 - Higher order functions follow this principle.
 - We may not want to decide exactly what some of our functionality is unti we run our function.
-  
+
+>💌 Note:<br/>
+> We could generalize our function - So we pass in our specific instruction only when we run the mother function (big/first function). 
