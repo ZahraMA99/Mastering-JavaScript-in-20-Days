@@ -24,15 +24,27 @@
 - We may not want to decide exactly what some of our functionality is unti we run our function.
 
 >💌 Note:<br/>
-> We could generalize our function - So we pass in our specific instruction only when we run the mother function (big/first function).
+> We could generalize our function - So we pass in our specific instruction only when we run the higher order function (outerfunction).
 
 ### How was passing function in onther function possiable :question::exclamation:
 **Function in javascript = first class object<br/>**
 They can co-exist and can be treated like any other javascript object:<br/>
-1. Assigned to variables and properties of other objects.
-2. Passed an arguments into functions.
+1. Assigned to variables and properties of other objects. ( Methods ) => defin the function for object property called method. 
+2. Passed an arguments into functions. 
 3. Returned as values from functions. 
     
-    
+#### Which is our Higher Order Function:
+- The Outer function that takes in a function is our higher-order function.
+#### Which is our Callback Function: 
+- Function we insert inside the outer function is our callback function. 
+
+>💌 Note:<br/>
+> **Higher function (outer function) & Callback function simplify our code & make it DRY.**
+
+> *Declartive readable code:* Map, filter, reduce - the most readable way to write code to work with data.
+> *C odesmith & pro interview prep:* One of the most popular topics to test in interview both for Codesmith and Mid/senior level.
+> *Asynchronous JavaScript:* Callbacks are a core aspect of async JavaScripts, and are under-the-hood of promises, async/wait.
+ 
+> Outer function called map. becuase it has some mapping functionality & create new collection of data. 
 
 
