@@ -41,10 +41,10 @@ They can co-exist and can be treated like any other javascript object:<br/>
 >💌 Note:<br/>
 > **Higher function (outer function) & Callback function simplify our code & make it DRY.**
 
-> *Declartive readable code:* Map, filter, reduce - the most readable way to write code to work with data.
-> *C odesmith & pro interview prep:* One of the most popular topics to test in interview both for Codesmith and Mid/senior level.
-> *Asynchronous JavaScript:* Callbacks are a core aspect of async JavaScripts, and are under-the-hood of promises, async/wait.
+> *Declartive readable code:* Map, filter, reduce - the most readable way to write code to work with data.<br/>
+> *C odesmith & pro interview prep:* One of the most popular topics to test in interview both for Codesmith and Mid/senior level.<br/>
+> *Asynchronous JavaScript:* Callbacks are a core aspect of async JavaScripts, and are under-the-hood of promises, async/wait.<br/>
  
-> Outer function called map. becuase it has some mapping functionality & create new collection of data. 
+> **Outer function called map. becuase it has some mapping functionality & create new collection of data.** 
 
 
