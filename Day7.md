@@ -16,4 +16,10 @@
     4. Whatever is top of the call stack " thats the function we're currently running.
   
  ## Functions & Callbacks :tulip:
- 
+ ### Why we use functions::fire:
+- DRY principle: Don't Repeat Yourself.
+- Generalizing functions: parameters means we don't need to decide what data to run our functionality on until we run the code.
+- Then provide an actual value ('arguments') when we run the function.
+- Higher order functions follow this principle.
+- We may not want to decide exactly what some of our functionality is unti we run our function.
+  
