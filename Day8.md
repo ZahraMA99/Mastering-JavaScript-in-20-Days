@@ -5,4 +5,5 @@
 - Many JavaScript design patterns including the moddul pattern use clousre.
 - Build iterators, handle partial application and maintain state an asynchronous world.
 
+
   
