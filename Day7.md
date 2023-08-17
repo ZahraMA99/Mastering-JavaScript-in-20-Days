@@ -51,5 +51,6 @@ They can co-exist and can be treated like any other javascript object:<br/>
 - Improve immediate legibility of the code.
 - But at least for our purposes here they are 'syntactic sugar' we'll see their full effects later.
 - Understanding how they're working under-the-hood is vital to avoid confusion.
-  
+
+## Delieverables⚙️
 
