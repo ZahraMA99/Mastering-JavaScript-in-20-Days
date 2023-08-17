@@ -15,4 +15,5 @@
     3. Finish running the function - JS removes it from call stack.
     4. Whatever is top of the call stack " thats the function we're currently running.
   
+ ## Functions & Callbacks :tulip:
  
