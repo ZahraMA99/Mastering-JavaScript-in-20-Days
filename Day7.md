@@ -9,6 +9,6 @@
     1. Tread of execution.
     2. Memory.<br/>
     Example: 
-    <img src="[//github.com/ZahraMA99/Mastering-JavaScript-in-20-Days/blob/main/Images/js%20principles.jpeg)https://github.com/ZahraMA99/Mastering-JavaScript-in-20-Days/blob/main/Images/js%20principles.jpeg]" width = 100%  hight = 40%/>
+    <img src="[https://github.com/ZahraMA99/Mastering-JavaScript-in-20-Days/blob/main/Images/js%20principles.jpeg)https://github.com/ZahraMA99/Mastering-JavaScript-in-20-Days/blob/main/Images/js%20principles.jpeg]" width = 100%  hight = 40%/>
     
   
