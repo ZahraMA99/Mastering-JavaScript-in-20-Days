@@ -1,6 +1,6 @@
 ## Introduction :tulip:
 
-### JavaScript principles:
+### JavaScript principles::fire:
 *When JavaScript code runs, it: <br/>*
 - Goes through the code line-by-line and run/excutes aech line **Known as thread of excutions**.
 - Saves data like strings and arrays so we can use that data later - in it's memory. We can even save code 'functions'.
@@ -8,7 +8,8 @@
 - **Excution context:** Created to run the code of a function - has 2 parts (we've already seen them!):
     1. Tread of execution.
     2. Memory.
-- **Call stack:**
+       
+- **Call stack:**:fire::fire:
     1. JavaScript keeps track of what function is currently running. (wheres the thread of excution)
     2. Run a function - add to call stack.
     3. Finish running the function - JS removes it from call stack.
