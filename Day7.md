@@ -33,7 +33,7 @@ They can co-exist and can be treated like any other javascript object:<br/>
 2. Passed an arguments into functions. 
 3. Returned as values from functions. 
     
-#### Which is our Higher Order Function:
+#### Which is our Higher Order Function::notes:
 - The Outer function that takes in a function is our higher-order function.
 #### Which is our Callback Function: 
 - Function we insert inside the outer function is our callback function. 
@@ -47,7 +47,7 @@ They can co-exist and can be treated like any other javascript object:<br/>
  
 > **Outer function called map. becuase it has some mapping functionality & create new collection of data.** 
 
-#### Anonymous and arrow functions:
+#### Anonymous and arrow functions::notes:
 - Improve immediate legibility of the code.
 - But at least for our purposes here they are 'syntactic sugar' we'll see their full effects later.
 - Understanding how they're working under-the-hood is vital to avoid confusion.
