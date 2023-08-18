@@ -15,7 +15,7 @@
 > - Code we want to run using those tweets <br/>
 > - Challenge: We want to wait for the tweets to be stored in tweets so that they’re there to run displayTweets on - but no code can run in the meantime <br/>
 
-### JavaScript is not enough - We need new pieces (some of which aren’t JavaScript at all) :first_quarter_moon:💎
+### <style color:"red">JavaScript is not enough - We need new pieces (some of which aren’t JavaScript at all) <style/>:first_quarter_moon:💎
 *Our core JavaScript engine has 3 main parts:*:blossom:
 - Thread of execution
 - Memory/variable environment
