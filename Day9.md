@@ -26,10 +26,9 @@
 - Promises
 - Event loop, Callback/Task queue and micro task queue <br/>
 
-> Code Example on setTimeOut() and callback Queue::high_brightness:
+> Code Example on setTimeOut() and callback Queue::bomb:
 ```
-We’re interacting with a world outside of JavaScript now - so
-we need rules
+We’re interacting with a world outside of JavaScript now - so we need rules:
 function printHello(){ console.log("Hello"); }
 function blockFor1Sec(){ //blocks in the JavaScript thread for
 1 sec }
@@ -39,4 +38,30 @@ console.log("Me first!");
 
 => console: Me first! Hello
 ```
+#### ES5 Web Browser APIs with callback functions::bomb:
+#### Problems ☄️
+- Our response data is only available in the callback function - Callback hell
+- Maybe it feels a little odd to think of passing a function into another function only for it
+to run much later
+#### Benefits ☄️
+- Super explicit once you understand how it works under-the-hood
 
+### ES6+ Solution (Promises):ribbon:
+*Using two-pronged ‘facade’ functions that both:<br/>*
+- Initiate background web browser work and
+- Return a placeholder object (promise) immediately in JavaScript
+
+> ES6+ Promises code example::crown:
+```
+function display(data){
+ console.log(data)
+}
+const futureData = fetch('https://twitter.com/will/tweets/1')
+futureData.then(display);
+
+console.log("Me first!");
+```
+
+### ES6+ Solution (Promises)
+- Special objects built into JavaScript that get returned immediately when we make a call to a web browser API/feature (e.g.fetch) that’s set up to return promises (not all are).
+- Promises act as a placeholder for the data we expect to get back from the web browser feature’s background work.
