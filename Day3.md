@@ -25,7 +25,7 @@
 WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
 <br/> WE HAVE TO DISTINGUISH BETWEEN THE IMMUTABILITY OF CONST VARIABLES AND THE MUTABILITY OF VALUES THAT WE ASSIGN TO THEM. SO IT'S POSSIABLE TO HAVE AN IMMUTABLE REFERANCE, IMMUTABLE ARROW :arrow_right: A MUTABLE VALUE.<BR/> WE MEAN ARRAY ITSELF HASN'T CHANGED "ARRAY NAME STILL A POINTER TO THE [ ] ITSELF", BUT THE VALUES INSIDE THE ARRAY CAN BE CHANGABLE "WE CAN STILL MESS WITH IT".
 
-  ```
+  ```js
    const operands = [4,5];
    const sum = operands[0] + operands[1];
    operands[0] = 6;
@@ -47,8 +47,16 @@ WHEN WE USE IMMUTABLE VARIABLE WITH MUTABLE VALUE LIKE ARRAY! (e.g below)
  💌 Note:<br/>
 EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIKE STRING, BOOLEAN, NUMBERS..
 
-### Quiz Project :cyclone:
+#### Spread operator:
+> Another huge advantage of the spread operator is the ability to combine arrays, or to insert all the elements of one array into another, at any index. With more traditional syntaxes, we can concatenate arrays, but this only allows us to combine arrays at the end of one, and at the start of another. Spread syntax makes the following operation extremely simple: code example:
+```js
+let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
+
+let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
 ```
+
+### Quiz Project :cyclone:
+```js
 <!DOCTYPE html>
 <!-- saved from url=(0063)https://anjana.dev/javascript-first-steps/2-jsquiz-starter.html -->
 <html lang="en-US">
@@ -198,8 +206,60 @@ function forecast(arr) {
 console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
 ```
 
-**- Copy Array Items Using slice()**<br/>
-🎃Excersie Link: https://shorturl.at/mxC68 <br/>
+**- Combine Arrays with the Spread Operator**<br/>
+🎃Excersie Link: https://shorturl.at/fpPT1 <br/>
 💡My Solution:<br/>
 ```js
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment , 'is', 'fun'];
+  return sentence;
+}
+
+console.log(spreadOut());
+```
+**- Profile Lookup **<br/>
+🎃Excersie Link: https://shorturl.at/bkPZ5 <br/>
+💡My Solution:<br/>
+```js
+// Setup
+const contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
+
+function lookUpProfile(name, prop) {
+   for(let i in contacts){
+    if(contacts[i].firstName == name){
+      return contacts[i].lastName;
+    }
+   
+  }
+}
+
+console.log(lookUpProfile("Kristian", "lastName"));
+```
+
 
