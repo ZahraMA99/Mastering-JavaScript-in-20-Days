@@ -26,4 +26,17 @@
 - Promises
 - Event loop, Callback/Task queue and micro task queue <br/>
 
+> Code Example on setTimeOut() and callback Queue::high_brightness:
+```
+We’re interacting with a world outside of JavaScript now - so
+we need rules
+function printHello(){ console.log("Hello"); }
+function blockFor1Sec(){ //blocks in the JavaScript thread for
+1 sec }
+setTimeout(printHello,0);
+blockFor1Sec()
+console.log("Me first!");
+
+=> console: Me first! Hello
+```
 
