@@ -58,7 +58,7 @@
 - Persistent Lexical Scope Referenced Data (P.L.S.R.D.)
 - ‘Backpack’
 - ‘Closure’
-
+  <br/>
 💌 **Note:**
 > The ‘backpack’ (or ‘closure’) of live data is attached incrementCounter (then to myNewFunction) through a hidden property known as [[scope]] which persists when the inner function is returned out.
 
