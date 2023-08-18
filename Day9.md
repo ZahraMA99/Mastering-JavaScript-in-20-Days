@@ -71,11 +71,11 @@ console.log("Me first!");
 - Added using .then method to the hidden property ‘onFulfilment’
 - Promise objects will automatically trigger the attached function to run (with its input being the returned data
 
-#### Promises
-#### Problems ☄️
+### Promises
+*Problems*☄️
 - 99% of developers have no idea how they’re working under the hood
 - Debugging becomes super-hard as a result
 - Developers fail technical interviews
-#### Benefits :hibiscus:
+*Benefits :hibiscus:*
 - Cleaner readable style with pseudo-synchronous style code
 - Nice error handling process
