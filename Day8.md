@@ -14,7 +14,8 @@
 - I understand the event loop in JavaScript
 - I understand 'callback functions'
 - I can implement filter
-- I can handle collisions in a hash table
+- I can handle collisions in a hash table<br/>
+
 💌 **Note:**
 > For each topic you know give yourself a point to get a total out of.
 
