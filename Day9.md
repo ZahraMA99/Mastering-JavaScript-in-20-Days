@@ -43,7 +43,7 @@ console.log("Me first!");
 - Our response data is only available in the callback function - Callback hell
 - Maybe it feels a little odd to think of passing a function into another function only for it
 to run much later
-#### Benefits ☄️
+#### Benefits :hibiscus:
 - Super explicit once you understand how it works under-the-hood
 
 ### ES6+ Solution (Promises):ribbon:
@@ -65,3 +65,17 @@ console.log("Me first!");
 ### ES6+ Solution (Promises)
 - Special objects built into JavaScript that get returned immediately when we make a call to a web browser API/feature (e.g.fetch) that’s set up to return promises (not all are).
 - Promises act as a placeholder for the data we expect to get back from the web browser feature’s background work.
+
+### then method and functionality to call on completion
+- Any code we want to run on the returned data must also be saved on the promise object
+- Added using .then method to the hidden property ‘onFulfilment’
+- Promise objects will automatically trigger the attached function to run (with its input being the returned data
+
+### Promises
+#### Problems ☄️
+- 99% of developers have no idea how they’re working under the hood
+- Debugging becomes super-hard as a result
+- Developers fail technical interviews
+#### Benefits :hibiscus:
+- Cleaner readable style with pseudo-synchronous style code
+- Nice error handling process
