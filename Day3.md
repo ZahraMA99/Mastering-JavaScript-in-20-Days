@@ -184,9 +184,9 @@ EVERYTHING IN JS IS AN OBJECT!! OBJECTS, ARRAYS.. EXPECT PRIMITIVE DATA TYPE LIK
 </html>
 ```
 ## Delieverables⚙️
-- Copy Array Items Using slice()
-🎃Excersie Link: https://shorturl.at/mxC68
-💡My Solution:
+**- Copy Array Items Using slice()**<br/>
+🎃Excersie Link: https://shorturl.at/mxC68 <br/>
+💡My Solution:<br/>
 ```js
 function forecast(arr) {
   // Only change code below this line
@@ -197,4 +197,9 @@ function forecast(arr) {
 // Only change code above this line
 console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
 ```
+
+**- Copy Array Items Using slice()**<br/>
+🎃Excersie Link: https://shorturl.at/mxC68 <br/>
+💡My Solution:<br/>
+```js
 
