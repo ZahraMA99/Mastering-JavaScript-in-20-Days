@@ -213,8 +213,8 @@ const apis = [
 
 const executeInSequenceWithPromises =  (apis) => {
     const results = []
-    for (let api of apis){
-        const respose = await fetch(api.apiUrl)
+    for (let i in apis){
+        const respose = await fetch(apis[i].apiUrl)
         const data = await respose.json()
         results.push({
             apiName: api.apiName,
