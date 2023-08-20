@@ -59,4 +59,9 @@ They can co-exist and can be treated like any other javascript object:<br/>
 - Collaborate to solve problem.
   
 ## Delieverables⚙️
+**- Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem**
+<br />:jack_o_lantern:Excersie Link: 
+<br />💡My Solution: 
+```js
 
+```
