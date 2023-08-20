@@ -60,8 +60,28 @@ They can co-exist and can be treated like any other javascript object:<br/>
   
 ## Delieverables⚙️
 **- Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem**
-<br />:jack_o_lantern:Excersie Link: 
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/jmuW6 
 <br />💡My Solution: 
 ```js
+const squareList = arr => {
+  const intNumArr = arr.filter((num) => (num === parseInt(num, 10) && num >= 0));
+  const SquaredintNumArr =  intNumArr.map((intNum) => intNum * intNum);
+  return SquaredintNumArr;
+};
 
+const squaredIntegers = squareList([-3, 8, 6, 0, 10]);
+console.log(squaredIntegers);
+```
+
+**- Apply Functional Programming to Convert Strings to URL Slugs**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/anGL2
+<br />💡My Solution: 
+```js
+// Only change code below this line
+function urlSlug(title) {
+return title.trim().split(/\s+/).join("-").toLowerCase();
+}
+// Only change code above this line
+const url = urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
+console.log(".../" + url);
 ```
