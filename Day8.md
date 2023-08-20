@@ -73,3 +73,83 @@
 
 
 ## Delieverables⚙️
+**- Write a closure named createCounter that takes an initial value start and returns a function. The returned function, when invoked, should increment the counter by 1 and return the updated value.**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/jxzNR
+<br />💡My Solution: 
+```js
+function createCounter(){
+    let count = 0;
+    return function(){
+        return ++count;
+    };
+}
+const counter = createCounter();
+console.log(counter());
+```
+
+**- Write a closure named calculateAverage that takes an array of numbers, nums, and returns a function. The returned function, when invoked, should calculate and return the average of the numbers in the array.**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/jxzNR
+<br />💡My Solution: 
+```js
+let avg = 0;
+function calculateAverage(arr){
+    let sum = 0;
+    return function(){
+        for(let index in arr){
+            sum += arr[index];
+        }
+        return sum;
+    }
+}
+
+const average = calculateAverage([2,6,8,5]);
+console.log(average());
+```
+
+**- Write a closure named powerOf that takes a base number base and returns a function. The returned function, when invoked with an exponent exp, should calculate and return the result of base raised to the power of exp.**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/jxzNR
+<br />💡My Solution: 
+```js
+function powerOf(baseNumber){
+    let result;
+    return function exponent(exp){
+       result = baseNumber ** exp ;   
+       return result;
+    }
+}
+
+const expOfBase = powerOf(3);
+console.log(expOfBase(2));
+```
+
+**- Write a closure named compose that takes multiple functions as arguments and returns a new function. The returned function should apply the provided functions in reverse order, passing the result of each function as an argument to the next function.**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/jxzNR
+<br />💡My Solution: 
+```js
+function func1(){
+    return "Hello";
+};
+function func2(){
+    return "zahra";
+};
+
+function compose(f1, f2){
+    let reverseResult = "";
+    return function reverse(){
+        reverseResult = f2 + "! " + f1;
+       return reverseResult;
+    }
+     
+}
+
+const composeResult = compose(func1(), func2());
+console.log(composeResult());
+```
+
+
+
+
+
+
+
+
