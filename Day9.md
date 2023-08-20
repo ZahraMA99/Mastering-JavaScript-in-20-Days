@@ -95,14 +95,97 @@ console.log("Me first!");
 <br />:jack_o_lantern:Excersie Link: https://shorturl.at/etMQ2
 <br />💡My Solution: 
 ```js
+const task1 = () => new Promise((resolve) => {
+    setTimeout(() => {
+      const message = "Task 1 has executed successfully!";
+      resolve(message);
+    }, 3000);
+  });
 
+  const task2 = () => new Promise((resolve) => {
+    setTimeout(() => {
+      const message = "Task 2 has executed successfully!";
+      resolve(message);
+    }, 0);
+  });
+
+  const task3 = () => new Promise((resolve) => {
+    setTimeout(() => {
+      const message = "Task 3 has executed successfully!";
+      resolve(message);
+    }, 1000);
+  });
+
+  const task4 = () => new Promise((resolve) => {
+    setTimeout(() => {
+      const message = "Task 4 has executed successfully!";
+      resolve(message);
+    }, 2000);
+  });
+
+  const task5 = () => new Promise((resolve) => {
+    setTimeout(() => {
+      const message = "Task 5 has executed successfully!";
+      resolve(message);
+    }, 4000);
+  });
+
+  const asyncTasks = [task1, task2, task3, task4, task5];
+
+  const executeInSequenceWithCBs = async (tasks, callback) => {
+    const promises = tasks.map((task) => task());
+    const results = await Promise.all(promises);
+    callback(results);
+    return results;
+  };
+
+  executeInSequenceWithCBs(asyncTasks, (messages) => {
+    console.log(messages);
+  });
 ```
 
 **Question2**
 <br />:jack_o_lantern:Excersie Link: https://shorturl.at/etMQ2
 <br />💡My Solution: 
 ```js
+const apis = [
+  {
+    apiName: "products", 
+    apiUrl: "https://dummyjson.com/products",
+  }, 
+  {
+    apiName: "users", 
+    apiUrl: "https://dummyjson.com/users",
+  }, 
+  {
+    apiName: "posts", 
+    apiUrl: "https://dummyjson.com/posts",
+  }, 
+  {
+    apiName: "comments", 
+    apiUrl: "https://dummyjson.com/comments",
+  }
+]
 
+
+const executeInParallelWithPromises = (apis) => {
+    const promises = apis.map(api => {
+        return fetch(api.apiUrl)
+            .then(response => { response.json() })
+            .then(data => {
+                return {
+                    apiName: api.apiName,
+                    apiUrl: api.apiUrl,
+                    apiData: data
+                }
+            })
+    })
+
+    return Promise.all(promises)
+}
+
+executeInParallelWithPromises(apis)
+    .then(result=>console.log(result))
 ```
 
 **Question3**
