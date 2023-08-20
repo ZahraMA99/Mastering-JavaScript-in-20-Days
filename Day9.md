@@ -192,5 +192,38 @@ executeInParallelWithPromises(apis)
 <br />:jack_o_lantern:Excersie Link: https://shorturl.at/etMQ2
 <br />💡My Solution: 
 ```js
+const apis = [
+    {
+        apiName: "products",
+        apiUrl: "https://dummyjson.com/products",
+    },
+    {
+        apiName: "users",
+        apiUrl: "https://dummyjson.com/users",
+    },
+    {
+        apiName: "posts",
+        apiUrl: "https://dummyjson.com/posts",
+    },
+    {
+        apiName: "comments",
+        apiUrl: "https://dummyjson.com/comments",
+    }
+]
 
+const executeInSequenceWithPromises =  (apis) => {
+    const results = []
+    for (let api of apis){
+        const respose = await fetch(api.apiUrl)
+        const data = await respose.json()
+        results.push({
+            apiName: api.apiName,
+            apiUrl: api.apiUrl,
+            apiData: data
+        })
+    }
+    return results
+}
+executeInSequenceWithPromises(apis)
+    .then(results=>{console.log(results)})
 ```
