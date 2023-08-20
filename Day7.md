@@ -97,5 +97,12 @@ console.log(".../" + url);
 <br />:jack_o_lantern:Excersie Link: https://shorturl.at/dfDGV
 <br />💡My Solution: 
 ```js
-
+function sumRange(n){
+   if(n>=1){
+        return n + sumRange(n--);
+   }
+   return n;
+}
+const sumByRecursion = sumRange(5);
+console.log(sumByRecursion);
 ```
