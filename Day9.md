@@ -91,3 +91,23 @@ console.log("Me first!");
 > - **Web applications:** Asynchronous JavaScript is the backbone of the modern web - letting us build fast ‘non-blocking’ applications 
 
 ## Delieverables⚙️
+**Question1**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/etMQ2
+<br />💡My Solution: 
+```js
+
+```
+
+**Question2**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/etMQ2
+<br />💡My Solution: 
+```js
+
+```
+
+**Question3**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/etMQ2
+<br />💡My Solution: 
+```js
+
+```
