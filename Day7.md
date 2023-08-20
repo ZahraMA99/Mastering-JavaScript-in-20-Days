@@ -85,3 +85,17 @@ return title.trim().split(/\s+/).join("-").toLowerCase();
 const url = urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 console.log(".../" + url);
 ```
+
+**- Implement a JavaScript function called mapAsync that takes an array and a callback function. The function should map each element of the array to a new value using the callback function asynchronously**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/dfDGV
+<br />💡My Solution: 
+```js
+
+```
+
+**- Write a JavaScript function called sumRange that calculates the sum of all integers in a given range. The function should use recursion to handle the calculation and demonstrate understanding of the call stack**
+<br />:jack_o_lantern:Excersie Link: https://shorturl.at/dfDGV
+<br />💡My Solution: 
+```js
+
+```
