@@ -15,5 +15,5 @@
 => objectName.hasOwnProperty('property');<br/>
 
 ## Delieverables⚙️
-<br />:jack_o_lantern:Excersie Link: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming
+<br />:jack_o_lantern:Excersie Link & My Solutions: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming
 
