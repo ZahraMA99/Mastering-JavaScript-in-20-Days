@@ -14,5 +14,6 @@
 - What if we want to confirm our user1 has the property score ?:chestnut:<br/>
 => objectName.hasOwnProperty('property');<br/>
 
-
+## Delieverables⚙️
+<br />:jack_o_lantern:Excersie Link: https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/object-oriented-programming
 
