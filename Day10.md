@@ -11,6 +11,8 @@
 > :love_letter: Note: 
 > Slides in telegrame channel to explain examples about that.
 
-- What if we want to confirm our user1 has the property score ?:chestnut:
-=> objectName.hasOwnProperty('property');
+- What if we want to confirm our user1 has the property score ?:chestnut:<br/>
+=> objectName.hasOwnProperty('property');<br/>
+
+
 
