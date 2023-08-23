@@ -29,9 +29,10 @@ x++; // x = 41
 > In JavaScript: variables don't have types, values do.
 
 > 💌Notes:
-- typeof : operator returns a string indicating the type of the operand's value.
-- function & arrays not types of the top level they are sub types of object, but when using typeof array ⇒ object while function ⇒ function
-- type of null = object it is a bug in JS, ih they want to correct it a lot of things will fail in the JS
+>- typeof : operator returns a string indicating the type of the operand's value.
+>- function & arrays not types of the top level they are sub types of object, but when using typeof array ⇒ object while function ⇒ function
+>- type of null = object it is a bug in JS, ih they want to correct it a lot of things will fail in the JS
+
 
 
 
