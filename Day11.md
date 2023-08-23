@@ -36,12 +36,11 @@ x++; // x = 41
 - Nan:🔥
 (Special Values) is the only value that is not equall to it self
 
-- Typy of Nan💻
-**NaN type is number (invalid number).**
+- Typy of Nan: **NaN type is number (invalid number).**
 
-- is Nan method ✨☄️
-- isNan()
+- is Nan method: isNan() ?? 
 // evaluate any argument to number then cheak weather it's a Nan or not
+
 ```js
 Number.isNan()
 
@@ -49,5 +48,156 @@ isNaN("ahmad")          // true
 Number.isNaN("ali")   // false
 ```
 
+#### Object.is( , )
+- it’s built in cheaker
+
+#### better way for cheaking equality (better than ===)
+
+```js
+// we might use -0 for directons in some applecaions which the sign means direct.
+ 
+-0 === 0                // true
+Object.is(-0 ,0 )       // false
+```
+
+>💌 Note:
+=== failed in Nan & -0
 
 
+
+Excersie🔥💫
+// TODO: define polyfill for `Object.is(..)`
+
+if (!Object.is || true){   // to disaple the built in method & build my own
+    Object.is = function ObjectIs(x,y){
+        const xNegZero = isItNegZero(x)
+        const yNegZero = isItNegZero(y)
+
+        if (yNegZero || xNegZero ){
+            return yNegZero && xNegZero
+        }else if (isItNane(x) && isItNane(y)){
+            return true
+        }else {
+            return x===y
+        }
+
+        function isItNegZero(v){
+            return v===0 && (1/v)=== -Infinity
+        }
+
+        function isItNane(v){
+            return v !==v
+        }
+    }
+} 
+```js
+// tests:
+console.log(Object.is("42",42) === false);
+console.log(Object.is("foo","bar") === false);
+console.log(Object.is(false,true) === false);
+console.log(Object.is(null,undefined) === false);
+console.log(Object.is(undefined,null) === false);
+
+console.log(Object.is(42,42) === true);
+console.log(Object.is("foo","foo") === true);
+console.log(Object.is(false,false) === true);
+console.log(Object.is(null,null) === true);
+
+console.log(Object.is(-0,0) === false);
+console.log(Object.is(0,-0) === false);
+console.log(Object.is(0,NaN) === false);
+console.log(Object.is(NaN,0) === false);
+console.log(Object.is(42,"42") === false);
+
+console.log(Object.is(undefined,undefined) === true);
+console.log(Object.is(NaN,NaN) === true);
+console.log(Object.is(-0,-0) === true);
+console.log(Object.is(0,0) === true);
+
+```
+
+## Coercion 
+- type conversion
+
+### Abstract Operations: ToPrimitive
+- **.toString ()**
+```js
+(null).toString()                  // "null"
+undefined.toString()               // "undefined"
+true.toString()                    // "true"
+false.toString()                   // "false"
+3.14159.toString()                 // "3.14159"
+(0).toString()                     // "0"
+(-0).toString()                    // "0"
+
+([]).toString()                    // ""
+[1, 2, 3].toString()               // "1,2,3"
+[null, undefined].toString()       // ","
+[[[], [], []], []].toString()      // ",,,"
+([,,,,]).toString()                // ",,,"
+
+{}      "[object Object]"
+{a:2}   "[object Object]"
+```
+
+- **ToNumber**
+```js
+// using Number(x)
+
+""        // 0
+"0"       // 0
+"-0"      // -0
+" 009 "   // 9
+"3.14159" // 3.14159
+"0."      // 0
+".0"      // 0
+"."       // NaN
+"0xaf"    // 175 // consvert hexacecimal to decimal
+
+false      // 0
+true       // 1
+null       // 0
+undefined  // Nan
+
+[""]        // 0
+["0"]       // 0
+["-0"]      // 0-
+[null]      // 0
+[undefined] // 0
+[1,2,3]     // NaN
+[[[[]]]]    // 0
+{ .. }      // NaN
+```
+
+#### Why true & false shouldn’t convert to 1&0 ??
+```js
+3 > 2 > 1
+(true) > 1
+1 > 1 // false !!!!
+```
+- **ToBoolean()**
+// Falsy values:
+```js
+“”
+0, -0
+null
+NaN
+false
+undefined
+// anything eles will be truthy value
+```
+#### Cases of coercion: 
+```js
+// string concatination calls toString method
+"ali" + 20
+
+`lol ${variable}`
+// also use toString
+
+`lol ${variable.toString()}
+// impicit `coercion, primitve types don't have methods
+
+// all of the above are implicit
+// explicit 
+String(variable)
+```
