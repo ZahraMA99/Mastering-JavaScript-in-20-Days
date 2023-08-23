@@ -174,3 +174,11 @@ undefined
 // explicit 
 String(variable)
 ```
+## Delieverables⚙️
+**- **<br/>
+🎃Excersie Link: <br/>
+💡My Solution: <br/>
+```js
+
+
+```
