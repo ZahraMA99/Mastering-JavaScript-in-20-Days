@@ -1,5 +1,5 @@
 ## Deep JavaScript Foudation - V3
-## Introduction:tokyo_tower:
+## Introduction:tokyo_tower::rainbow:
 
 - LEARN THE DNA OF JAVASCRIPT & ALGORITHEMS.:performing_arts:
 ```js
@@ -33,7 +33,7 @@ x++; // x = 41
 >- function & arrays not types of the top level they are sub types of object, but when using typeof array ⇒ object while function ⇒ function
 >- type of null = object it is a bug in JS, ih they want to correct it a lot of things will fail in the JS
 
-- Nan:🔥
+- Nan::rainbow:
 (Special Values) is the only value that is not equall to it self
 
 - Typy of Nan: **NaN type is number (invalid number).**
@@ -48,10 +48,10 @@ isNaN("ahmad")          // true
 Number.isNaN("ali")   // false
 ```
 
-#### Object.is( , )
+#### Object.is( , ):rainbow:
 - it’s built in cheaker
 
-#### better way for cheaking equality (better than ===)
+#### better way for cheaking equality (better than ===):rainbow:
 
 ```js
 // we might use -0 for directons in some applecaions which the sign means direct.
@@ -89,11 +89,11 @@ console.log(Object.is(0,0) === true);
 
 ```
 
-## Coercion 
+## Coercion :rainbow:
 - type conversion
 
-### Abstract Operations: ToPrimitive
-- **.toString ()**
+### Abstract Operations: ToPrimitive:rainbow:
+- **.toString ()**:rainbow:
 ```js
 (null).toString()                  // "null"
 undefined.toString()               // "undefined"
@@ -113,7 +113,7 @@ false.toString()                   // "false"
 {a:2}   "[object Object]"
 ```
 
-- **ToNumber**
+- **ToNumber**:rainbow:
 ```js
 // using Number(x)
 
@@ -142,13 +142,13 @@ undefined  // Nan
 { .. }      // NaN
 ```
 
-#### Why true & false shouldn’t convert to 1&0 ??
+#### Why true & false shouldn’t convert to 1&0 ??:rainbow:
 ```js
 3 > 2 > 1
 (true) > 1
 1 > 1 // false !!!!
 ```
-- **ToBoolean()**
+- **ToBoolean()**:rainbow:
 // Falsy values:
 ```js
 “”
@@ -159,7 +159,7 @@ false
 undefined
 // anything eles will be truthy value
 ```
-#### Cases of coercion: 
+#### Cases of coercion::rainbow: 
 ```js
 // string concatination calls toString method
 "ali" + 20
