@@ -63,33 +63,6 @@ Object.is(-0 ,0 )       // false
 >💌 Note:
 === failed in Nan & -0
 
-
-
-Excersie🔥💫
-// TODO: define polyfill for `Object.is(..)`
-
-if (!Object.is || true){   // to disaple the built in method & build my own
-    Object.is = function ObjectIs(x,y){
-        const xNegZero = isItNegZero(x)
-        const yNegZero = isItNegZero(y)
-
-        if (yNegZero || xNegZero ){
-            return yNegZero && xNegZero
-        }else if (isItNane(x) && isItNane(y)){
-            return true
-        }else {
-            return x===y
-        }
-
-        function isItNegZero(v){
-            return v===0 && (1/v)=== -Infinity
-        }
-
-        function isItNane(v){
-            return v !==v
-        }
-    }
-} 
 ```js
 // tests:
 console.log(Object.is("42",42) === false);
