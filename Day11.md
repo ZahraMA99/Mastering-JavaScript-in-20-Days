@@ -3,7 +3,7 @@
 
 - THE DNA OF JAVASCRIPT- ALGORITHEMS.:performing_arts:
 ## Types:tokyo_tower:
-- Types:
+**- Types:**
 1. undefined: means dosen't currently hava a value.
 2. string
 3. number
