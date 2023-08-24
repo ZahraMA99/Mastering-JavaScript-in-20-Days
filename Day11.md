@@ -21,8 +21,8 @@ x++; // x = 41
 7. bigInt (future): let i = 22n
 > 💌 Note: function & arrays are a subtype of a object type.
 
-> 💌 Note:
->- Not Object:
+
+- Not Object:
 1.undefined
 2. string
 3. number
@@ -32,7 +32,7 @@ x++; // x = 41
 7. null
 8. bigint
 
->- Objects:
+- Objects:
 1. object 
 2. function
 3. array 
