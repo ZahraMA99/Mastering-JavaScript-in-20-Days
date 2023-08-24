@@ -22,8 +22,8 @@ x++; // x = 41
 > 💌 Note: function & arrays are a subtype of a object type.
 
 
-- Not Object:
-1.undefined
+- Not Object::thumbsdown:
+1. undefined
 2. string
 3. number
 4. boolean
@@ -32,7 +32,7 @@ x++; // x = 41
 7. null
 8. bigint
 
-- Objects:
+- Objects::thumbsup:
 1. object 
 2. function
 3. array 
