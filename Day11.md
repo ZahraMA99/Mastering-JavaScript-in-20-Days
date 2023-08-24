@@ -33,24 +33,24 @@ x++; // x = 41
 4. boolean
 5. object
 6. symbol 
-7. null
-8. bigint
+7. null => It is one of JavaScript's primitive values and is treated as falsy for boolean operations. *in the begining of js they defined null as object.*
+8. bigint => values represent numeric values which are too large to be represented by the number primitive.
 
 > 💌 Note:
 > In JavaScript: variables don't have types, values do.
 
+#### typeof : operator returns a string indicating the type of the operand's value.
+
 > 💌 Notes:
->- typeof : operator returns a string indicating the type of the operand's value.
->- function & arrays not types of the top level they are sub types of object, but when using typeof array ⇒ object while function ⇒ function
->- type of null = object it is a bug in JS, ih they want to correct it a lot of things will fail in the JS
+>- function and arrays aren't types of the top level they are sub types of object. when using `typeof(array)`: return(object), while `typeof(function)`: return(function).
+>- `typeof(null)`: return(object). *it is a bug in JS, ih they want to correct it a lot of things will fail in the JS*
 
-- Nan::rainbow:
-(Special Values) is the only value that is not equall to it self
+#### Nan::rainbow:
+- *(Special Values)* values that not equall to it self.
+- `typeof(NaN)`: return(number).
 
-- Typy of Nan: **NaN type is number (invalid number).**
-
-- is Nan method: isNan() ?? 
-// evaluate any argument to number then cheak weather it's a Nan or not
+#### isNan()::rainbow:
+- Evaluate any argument to number then cheak weather it's a Nan or not.
 
 ```js
 Number.isNan()
@@ -60,9 +60,9 @@ Number.isNaN("ali")   // false
 ```
 
 #### Object.is( , ):rainbow:
-- it’s built in cheaker
+- it’s built in cheaker.
 
-#### better way for cheaking equality (better than ===):rainbow:
+#### better way for cheaking equality === :rainbow:
 
 ```js
 // we might use -0 for directons in some applecaions which the sign means direct.
@@ -75,7 +75,6 @@ Object.is(-0 ,0 )       // false
 === failed in Nan & -0
 
 ```js
-// tests:
 console.log(Object.is("42",42) === false);
 console.log(Object.is("foo","bar") === false);
 console.log(Object.is(false,true) === false);
@@ -97,7 +96,6 @@ console.log(Object.is(undefined,undefined) === true);
 console.log(Object.is(NaN,NaN) === true);
 console.log(Object.is(-0,-0) === true);
 console.log(Object.is(0,0) === true);
-
 ```
 
 ## Coercion :rainbow:
