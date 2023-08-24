@@ -22,8 +22,20 @@ x++; // x = 41
 > 💌 Note: function & arrays are a subtype of a object type.
 
 > 💌 Note:
->- undefined | string | number | boolean | object | symbol | null | bigint (future) => Not
->- object | function | array => Objects
+>- Not Object:
+1.undefined
+2. string
+3. number
+4. boolean
+5. object
+6. symbol 
+7. null
+8. bigint
+
+>- Objects:
+1. object 
+2. function
+3. array 
 
 > 💌 Note:
 > In JavaScript: variables don't have types, values do.
