@@ -102,8 +102,8 @@ console.log(Object.is(NaN,NaN) === true);
 console.log(Object.is(-0,-0) === true);
 console.log(Object.is(0,0) === true);
 ```
-#### New::sweat_drops:
-- Use New with:
+### new::sweat_drops:
+- Use `new` with:
 1. Object()
 2. Array()
 3. Function()
@@ -111,7 +111,7 @@ console.log(Object.is(0,0) === true);
 5. RegExp()
 6. Error()
 
-- Don't use New:
+- Don't use `new`:
 1. String()
 2. Number()
 3. Boolean()
