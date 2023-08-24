@@ -45,12 +45,15 @@ x++; // x = 41
 >- function and arrays aren't types of the top level they are sub types of object. when using `typeof(array)`: return(object), while `typeof(function)`: return(function).
 >- `typeof(null)`: return(object). *it is a bug in JS, ih they want to correct it a lot of things will fail in the JS*
 
+#### undefined *VS* undecleard *VS* uninitialize. 
+
 #### Nan::rainbow:
-- *(Special Values)* values that not equall to it self.
+- `NaN's` isn't equall to each other. ( if name: NaN Ok! ==> `name === name` return `false` ). 
 - `typeof(NaN)`: return(number).
 
 #### isNan()::rainbow:
-- Evaluate any argument to number then cheak weather it's a Nan or not.
+- isNaN() is a function property of the global object.
+- For number values, isNaN() tests if the number is the value NaN.<br/>When the argument to the isNaN() function is not of type Number, the value is first coerced to a number, and the resulting value is then compared against NaN.
 
 ```js
 Number.isNan()
