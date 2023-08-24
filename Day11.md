@@ -21,6 +21,10 @@ x++; // x = 41
 7. bigInt (future): let i = 22n
 > 💌 Note: function & arrays are a subtype of a object type.
 
+- Objects::thumbsup:
+1. object 
+2. function
+3. array 
 
 - Not Object::thumbsdown:
 1. undefined
@@ -31,11 +35,6 @@ x++; // x = 41
 6. symbol 
 7. null
 8. bigint
-
-- Objects::thumbsup:
-1. object 
-2. function
-3. array 
 
 > 💌 Note:
 > In JavaScript: variables don't have types, values do.
