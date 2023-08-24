@@ -64,6 +64,7 @@ Number.isNaN("ali")   // false
 
 #### Object.is( , ):rainbow:
 - it’s built in cheaker.
+- The Object.is() static method determines whether two values are the same value.
 
 #### better way for cheaking equality === :rainbow:
 
@@ -75,6 +76,7 @@ Object.is(-0 ,0 )       // false
 ```
 
 >💌 Note:
+- `-0` negative zero => is special values.
 === failed in Nan & -0
 
 ```js
@@ -100,6 +102,19 @@ console.log(Object.is(NaN,NaN) === true);
 console.log(Object.is(-0,-0) === true);
 console.log(Object.is(0,0) === true);
 ```
+#### New::sweat_drops:
+- Use New with:
+1. Object()
+2. Array()
+3. Function()
+4. Date()
+5. RegExp()
+6. Error()
+
+- Don't use New:
+1. String()
+2. Number()
+3. Boolean()
 
 ## Coercion :rainbow:
 - type conversion
