@@ -36,6 +36,10 @@ h() // erorr
 > :email: Note:
 > Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs.
 
+### undefiend VS undecleared
+- undefined: variables is decleared but still not has a value.
+- undecleared: variable not declear yet.
+
 ## Delieverables⚙️
 **- **<br/>
 🎃Excersie Link: <br/>
