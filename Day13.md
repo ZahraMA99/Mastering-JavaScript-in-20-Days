@@ -35,3 +35,12 @@ h() // erorr
 ### Functional Programming
 > :email: Note:
 > Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs.
+
+## Delieverables⚙️
+**- **<br/>
+🎃Excersie Link: <br/>
+💡My Solution: <br/>
+```js
+
+
+```
