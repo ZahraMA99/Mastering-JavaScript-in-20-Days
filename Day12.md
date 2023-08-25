@@ -18,3 +18,8 @@ const result = num + numStr; // JavaScript implicitly coerces the number to a st
 #### trim() method:
 - is a built-in string method that is used to remove whitespace characters from both the beginning and the end of a string. Whitespace characters include spaces, tabs, and newline characters.
 
+### Validation. *Read from chatGbt*
+- Validation involves checking whether data conforms to certain rules, constraints, or expectations before it is used further in the application.
+
+## Equality :notes:
+
