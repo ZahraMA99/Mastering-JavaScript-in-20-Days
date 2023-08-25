@@ -53,7 +53,29 @@ const sayHello = function(name) {
   console.log(`Hello, ${name}!`);
 };
 ```
+### Naming Function Expressions:
+- Naming function expressions can be helpful for improving code readability, stack traces, and debugging. While function expressions are often used anonymously (without a name), providing a name for a function expression can have its advantages.
 
+Here's how you can name a function expression:
+```js
+const namedFuncExpr = function myNamedFunction(param) {
+  console.log(param);
+};
+namedFuncExpr("Hello, world!"); // Calling the named function expression
+```
+> :email:Note:
+> In the example above, the function expression is assigned to the variable namedFuncExpr, and it's named as myNamedFunction. This is useful when debugging because the function ill appear with the name myNamedFunction in stack traces, making it easier to identify.
+
+#### Advantages of Naming Function Expressions::
+1. Debugging: Named function expressions provide a meaningful name in stack traces, making it easier to identify the function that caused an error.
+2. Self-Reference: Named function expressions can reference themselves within their own scope. This is useful for creating self-contained recursive functions.
+3. Readability: A named function expression can make the code more self-explanatory by giving context to what the function does.
+
+> :email:Note:
+> However, it's important to note that the name you provide to the function expression is only accessible within its own scope. Outside of that scope, the name won't be defined. This can help avoid naming conflicts.
+
+> :email:Note:
+> While naming function expressions can have advantages, you should weigh these benefits against your code style and the potential for naming conflicts. If you choose to name function expressions, make sure the names you use are meaningful and provide useful information about the purpose of the function.
 
 ## Delieverables⚙️
 **- **<br/>
