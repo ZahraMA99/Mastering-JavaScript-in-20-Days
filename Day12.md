@@ -53,3 +53,17 @@ const result = num + numStr; // JavaScript implicitly coerces the number to a st
 > all the casess explained on the slides on telegram.
 
 ## Static Typing :notes:
+JavaScript is known for its dynamic typing, where variables are not bound to a specific data type during declaration and can change their data type during runtime. This can lead to flexibility but also sometimes results in unexpected behavior. However, there are ways to introduce static typing in JavaScript using tools and extensions.
+
+### Benefits: 
+1. Catch type-related mistakes
+2. Communicate type intent
+3. Provide IDE feedback
+4. validating operand types to avoid errors
+
+### Here are two popular approaches:
+1. TypeScript *chatGpt*
+2. Flow *chatGpt*
+
+
+   
