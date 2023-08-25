@@ -12,5 +12,9 @@ const numStr = "2";
 const result = num + numStr; // JavaScript implicitly coerces the number to a string and performs string concatenation
 // result will be "422"
 ```
-> :love_letter:Note
+> :love_letter:Note<br/>
 > It's important to be aware of coercion, especially implicit coercion, as it can lead to code that's difficult to understand and predict. In many cases, it's a good practice to use explicit coercion to ensure that the types are converted as intended and to make the code more readable.
+
+#### trim() method:
+- is a built-in string method that is used to remove whitespace characters from both the beginning and the end of a string. Whitespace characters include spaces, tabs, and newline characters.
+
