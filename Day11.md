@@ -119,7 +119,9 @@ console.log(Object.is(0,0) === true);
 ## Coercion :rainbow:
 - type conversion
 
-### Abstract Operations: ToPrimitive:rainbow:
+### Abstract Operations => toPrimitive :rainbow:
+- if sth is non a primitive => we can converte it to a primitive using toPrimitive()
+
 - **.toString ()**:rainbow:
 ```js
 (null).toString()                  // "null"
@@ -141,6 +143,8 @@ false.toString()                   // "false"
 ```
 
 - **ToNumber**:rainbow:
+- Empty string become zero.
+  
 ```js
 // using Number(x)
 
@@ -176,16 +180,17 @@ undefined  // Nan
 1 > 1 // false !!!!
 ```
 - **ToBoolean()**:rainbow:
-// Falsy values:
-```js
-“”
-0, -0
-null
-NaN
-false
-undefined
-// anything eles will be truthy value
-```
+#### Falsy values:
+1. 0, -0
+2. null
+3. NaN
+4. false
+5. empty string "" => false
+6. string "hii" => true
+7. undefined<br/>
+*anything eles will be truthy value*
+
+### Addition opertator: either perform string concatination || numaric addition "summation". 
 #### Cases of coercion::rainbow: 
 ```js
 // string concatination calls toString method
