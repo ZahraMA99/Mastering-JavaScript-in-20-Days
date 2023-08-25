@@ -36,9 +36,24 @@ h() // erorr
 > :email: Note:
 > Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs.
 
-### undefiend VS undecleared
+### undefiend VS undeclared
 - undefined: variables is decleared but still not has a value.
-- undecleared: variable not declear yet.
+- undeclared: variable not declear yet.
+### function expression vs function decleration: 
+- Function Declaration: A function declaration is a way to define a named function using the function keyword. It's important to note that function declarations are hoisted, which means they are moved to the top of their scope during the compilation phase. This allows you to use the function before its actual declaration in the code.
+```js
+function sayHello(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+```
+- Function Expression: A function expression defines a function as part of an expression. It involves assigning an anonymous function (a function without a name) to a variable. Function expressions are not hoisted in the same way as function declarations. They can only be used after they have been defined.
+```js
+const sayHello = function(name) {
+  console.log(`Hello, ${name}!`);
+};
+```
+
 
 ## Delieverables⚙️
 **- **<br/>
