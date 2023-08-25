@@ -77,6 +77,11 @@ namedFuncExpr("Hello, world!"); // Calling the named function expression
 > :email:Note:
 > While naming function expressions can have advantages, you should weigh these benefits against your code style and the potential for naming conflicts. If you choose to name function expressions, make sure the names you use are meaningful and provide useful information about the purpose of the function.
 
+### Function Types Hierarchy:
+1. (Named) Function Declaration
+2. Named Function Expression
+3. Anonymous Function Expression
+   
 ## Delieverables⚙️
 **- **<br/>
 🎃Excersie Link: <br/>
