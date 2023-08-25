@@ -37,4 +37,19 @@ const result = num + numStr; // JavaScript implicitly coerces the number to a st
 3. if non-primitives: toPrimitive
 4. Prefer: ToNumber
 
- 
+### Corner Summary: "avoid to use":
+1. == with 0 or "" (or even " ")
+2. == with non-primitives
+3. == true or == false : allow ToBoolean or use ===
+
+> :love_letter:Note
+> Knowing types is always better than not knowing them Static Types is not the only (or even necessarily best) way to know your types
+
+> == is not about comparisons with unknown types == is about comparisons with known type(s), optionally where conversions are helpful
+
+> If you know the type(s) in a comparison:
+> If both types are the same, == is identical to === Using === would be unnecessary, so prefer the shorter ==
+
+> all the casess explained on the slides on telegram.
+
+## Static Typing :notes:
