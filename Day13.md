@@ -1,5 +1,5 @@
 ## Scope :earth_americas:
-- JavaScript organizes scopes with functions and blocks.
+**JavaScript organizes scopes with functions and blocks**<br/>
 
 ### Befor executing the code : 
 scope maneger detrmine the scope
@@ -27,7 +27,7 @@ function f1 (){
 h() // erorr
 ```
 ## Scope & Function Expressions :earth_americas:
-- Named Function Expressions: Benefits 
+**Named Function Expressions: Benefits** <br/>
 1. Reliable function self-reference (recursion, etc)
 2. More debuggable stack traces
 3. More self-documenting code
