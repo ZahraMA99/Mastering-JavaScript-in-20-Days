@@ -15,10 +15,10 @@ const result = num + numStr; // JavaScript implicitly coerces the number to a st
 > :love_letter:Note<br/>
 > It's important to be aware of coercion, especially implicit coercion, as it can lead to code that's difficult to understand and predict. In many cases, it's a good practice to use explicit coercion to ensure that the types are converted as intended and to make the code more readable.
 
-#### trim() method:
+### trim() method:
 - is a built-in string method that is used to remove whitespace characters from both the beginning and the end of a string. Whitespace characters include spaces, tabs, and newline characters.
 
-#### Validation :mushroom:
+### Validation :mushroom:
 *Read from chatGbt*
 - Validation involves checking whether data conforms to certain rules, constraints, or expectations before it is used further in the application.
 
