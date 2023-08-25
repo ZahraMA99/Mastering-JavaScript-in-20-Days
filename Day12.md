@@ -26,4 +26,15 @@ const result = num + numStr; // JavaScript implicitly coerces the number to a st
 - == checks value (loose)
 - === checks value and type (strict)
 
-  
+### double equal algorithem :mushroom: 
+*chatGbt* 
+> :love_letter:Note <br/>
+> Note that the double equal operator performs type coercion, meaning it tries to convert values to the same type before making the comparison. This can lead to unexpected results and is often considered a source of bugs in JavaScript code.
+
+### Summary :mushroom:
+1. if the types are the same: ===
+2. if null || undefined: equal
+3. if non-primitives: toPrimitive
+4. Prefer: ToNumber
+
+ 
