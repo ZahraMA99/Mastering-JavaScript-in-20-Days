@@ -61,6 +61,10 @@ JavaScript is known for its dynamic typing, where variables are not bound to a s
 3. Provide IDE feedback
 4. validating operand types to avoid errors
 
+### Here are two popular approaches:
+1. TypeScript *chatGpt*
+2. Flow *chatGpt*
+
 ## Delieverables⚙️
 **- **<br/>
 🎃Excersie Link: <br/>
@@ -69,10 +73,6 @@ JavaScript is known for its dynamic typing, where variables are not bound to a s
 
 
 ```
-
-### Here are two popular approaches:
-1. TypeScript *chatGpt*
-2. Flow *chatGpt*
 
 
    
