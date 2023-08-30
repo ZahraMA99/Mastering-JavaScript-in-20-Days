@@ -105,8 +105,27 @@
 | hoisting done, with initializing as ‘default’ value | Hoisting is done, but not initialized | Hoisting is done, but not initialized |
 
 **Statement VS Expression**:v:
-- Statement: Tells Js to do something. e.g: `let name = "sofia";`
-- Expression: Asks Js for a value. e.g: `console.log(document.title)";`
+- Statement: A statement is a unit of code that performs an action or has an effect. Statements are used to control the flow of execution, perform assignments, call functions, and more.
+- Expression: An expression is a piece of code that produces a value when executed. 
+
+### Key Differences:
+#### Purpose:
+- Statements are primarily used to control program flow, perform actions, and create reusable code blocks (functions).
+- Expressions are used to compute values and are often used as parts of statements.
+
+#### Result:
+- Statements do not produce values.
+- Expressions produce values.
+
+#### Semicolon:
+- Statements are usually terminated by a semicolon.
+- Expressions do not require a semicolon at the end, though they can be part of statements that do.
+
+#### Nesting:
+- Statements can contain expressions.
+- Expressions can be nested within other expressions.
+#### Examples:
+- In JavaScript, an assignment statement is x = 10;, where x = 10 is an expression that assigns the value 10 to the variable x.
 
 ## Delieverables⚙️
 **QUESTION #1**<br/>
