@@ -5,8 +5,16 @@
     2. number
     3. boolean
     4. undefind
-    5. null  
-- Objects (e.g document & friends).
+    5. null
+       
+- Reference Data Types:
+    1. Object: Represents a collection of key-value pairs, where values can be of any data type.
+    2. Array: Represents an ordered list of values, indexed by integers. For example: [1, 2, 3].
+    3. Function: Represents a block of reusable code. In JavaScript, functions are first-class citizens,<br/>
+       which means they can be assigned to variables, passed as arguments, and returned from other functions.
+    4. Date: Represents dates and times.
+    5. Map: Represents a collection of key-value pairs where the keys can be of any data type.
+    6. Set: Represents a collection of unique values.
   
 💡 We can use The `typeof` operator that returns a string indicating the type of the operand's value! e.g:
  1. `typeof("sofia")` returns String.
