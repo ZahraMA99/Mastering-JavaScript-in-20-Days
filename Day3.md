@@ -5,7 +5,7 @@
 - .length : represents the number of elements in that array.
 - .pop() : removes the last element from an array and returns that element.
 - .push() : adds the specified elements to the end of an array and returns the new length of the array.
-- .join() : returns a new string by concatenating all of the elements in this array, separated by commas or a specified separator string.
+- .join() : method is used to join all the elements of an array into a single string, we can separate them by a separator.
 - .toString() : converts an array to a string.
 - .shift() : removes the first element from an array and returns that removed element.
 - .unshift() : adds the specified elements to the beginning of an array and returns the new length of the array.
