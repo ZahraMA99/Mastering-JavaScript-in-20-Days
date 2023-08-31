@@ -27,7 +27,7 @@
 - Event loop, Callback/Task queue and micro task queue <br/>
 
 > Code Example on setTimeOut() and callback Queue::bomb:
-```
+```js
 We’re interacting with a world outside of JavaScript now - so we need rules:
 function printHello(){ console.log("Hello"); }
 function blockFor1Sec(){ //blocks in the JavaScript thread for
@@ -52,7 +52,7 @@ to run much later
 - Return a placeholder object (promise) immediately in JavaScript
 
 > ES6+ Promises code example::crown:
-```
+```js
 function display(data){
  console.log(data)
 }
